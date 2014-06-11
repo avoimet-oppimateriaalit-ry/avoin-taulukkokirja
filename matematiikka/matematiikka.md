@@ -6,6 +6,8 @@
 * ...?
 
 ## Määritelmiä ja kaavoja
+* Joukko-oppi
+    * Joukko-oppi, relaatiot(?)
 * Algebra ja aritmetiikka
     * Lukuteoria
         - N, Z
@@ -15,6 +17,7 @@
     * Rationaaliluvut
     * Reaaliluvut
     * Kompleksiluvut
+    * Itseisarvot, epäyhtälöt
     * Potenssit, juuret 
     * Eksponenttifunktio ja logaritmi
     * Polynomit
@@ -54,14 +57,13 @@
 * Numeerisia menetelmiä
 * Sarjateoriaa
 (Vektorianalyysi???)
-* Joukko-oppi ja kombinatoriikka
-    * Joukko-oppi, relaatiot(?)
-    * Kertoma, Stirlingin kaava
-    * Permutaatiot, kombinaatiot
 * Logiikka
     * Konnektiivit
     * Totuustaulukko
     * Kvanttorit
+* Kombinatoriikka
+    * Kertoma, Stirlingin kaava
+    * Permutaatiot, kombinaatiot
 * Todennäköisyyslaskenta ja tilastotiede
     * Kolmogorovin aksioomat?
     * Diskreetti tn-jakauma
