@@ -11,6 +11,13 @@ div {
 	display:inline-block;
 	padding:0.5em;
 	}
+section {
+	border:2px solid blue;
+	margin:0.5em;
+	padding:0.5em;
+	border-radius:0.5em;
+	}
+
 </style>
 <script type="text/javascript"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
@@ -18,13 +25,23 @@ div {
 </head> 
 <body> 
 
+<section>
+<header>
 <h2>Populaation kasvun ja kilpailun mallit</h2>
-<div>
-<h3>Rickerin malli</h3>
 
 \[
-N_{t+1} = N_te^{r(1-\frac{N_t}{K})}
+r = \text{luontainen kasvunopeus}
+\\
+K = \text{kantokyky}
+
 \]
+</header>
+
+<div>
+<h3>Logistinen malli</h3>
+\(
+N_{t+1} = N_t + rN_t(1-\frac{N_t}{K})
+\)
 </div>
 
 <div>
@@ -36,11 +53,38 @@ N_{t+1} = N_te^{r(1-\frac{N_t}{K})}
 </div>
 
 <div>
-<h3>Rickerin malli</h3>
+<h3>θ-Ricker-malli</h3>
 
 \[
-N_{t+1} = N_te^{r(1-\frac{N_t}{K})}
+N_{t+1} = N_te^{r(1-\frac{N_t}{K})^\theta}
 \]
 </div>
+
+<div>
+<h3>Hassellin malli</h3>
+
+\[
+N_{t+1} = 
+\]
+</div>
+
+<div>
+<h3>Beverton-Holtin malli</h3>
+
+\[
+N_{t+1} = 
+\]
+</div>
+
+<div>
+<h3>Skellamin malli</h3>
+
+\[
+N_{t+1} = 
+\]
+</div>
+</section>
+
+
 </body> 
 </html> 
