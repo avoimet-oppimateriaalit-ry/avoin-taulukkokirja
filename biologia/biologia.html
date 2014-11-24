@@ -3,52 +3,72 @@
 <head> 
 <title>Avoin taulukkokirja | Biologia</title>
 <meta charset="utf-8"/>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 <style>
-h3 {
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+}
+h1 {
+	margin: 0.5em 0.5em 0.5em 0.5em;
+	border-top:0.5em solid black;
+}
+h2 {
+	margin-left:0em;
+}
+h3 {	
 	text-align:center;
-	}
+	margin-bottom:0em;
+}
 div {
 	display:inline-block;
-	padding:0.5em;
-	}
+	vertical-align: top;
+	margin-left:1.8em;
+}
 section {
-	border:2px solid blue;
+	border:2px solid #598CE9;
 	margin:0.5em;
 	padding:0.5em;
 	border-radius:0.5em;
-	}
-
+}
 </style>
-<script type="text/javascript"
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 </head> 
 <body> 
+
+<h1>Biologia</h1>
 
 <section>
 <header>
 <h2>Populaation kasvun ja kilpailun mallit</h2>
 
+<div>
 \[
-r = \text{luontainen kasvunopeus}
-\\
-K = \text{kantokyky}
-
+\begin{array}{rl}
+N &=& \text{populaatiokoko} \\
+K &=&  \text{kantokyky} \\
+r &=& \text{luontainen kasvunopeus} \\
+t &=& \text{ajankohta} \\
+e &=& \text{Neperin luku}
+\end{array}
 \]
+</div>
+
 </header>
 
 <div>
 <h3>Logistinen malli</h3>
-\(
-N_{t+1} = N_t + rN_t(1-\frac{N_t}{K})
-\)
+\[
+N_{t+1} = N_t + rN_t \Big(1-\frac{N_t}{K}\Big)
+\]
 </div>
 
 <div>
 <h3>Rickerin malli</h3>
 
 \[
-N_{t+1} = N_te^{r(1-\frac{N_t}{K})}
+N_{t+1} = N_te^{r\big(1-\frac{N_t}{K}\big)}
 \]
 </div>
 
@@ -56,7 +76,7 @@ N_{t+1} = N_te^{r(1-\frac{N_t}{K})}
 <h3>θ-Ricker-malli</h3>
 
 \[
-N_{t+1} = N_te^{r(1-\frac{N_t}{K})^\theta}
+N_{t+1} = N_te^{r\big(1-\frac{N_t}{K}\big)^\theta}
 \]
 </div>
 
@@ -72,7 +92,7 @@ N_{t+1} =
 <h3>Beverton-Holtin malli</h3>
 
 \[
-N_{t+1} = 
+N_{t+1} = \frac{N_t}{K}
 \]
 </div>
 
@@ -80,11 +100,11 @@ N_{t+1} =
 <h3>Skellamin malli</h3>
 
 \[
-N_{t+1} = 
+N_{t+1} = \frac{N_t}{K}
 \]
 </div>
 </section>
 
 
 </body> 
-</html> 
+</html>
