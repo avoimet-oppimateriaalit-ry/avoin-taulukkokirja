@@ -15,9 +15,9 @@ Avoin taulukkokirja
     * On Päätettävä tasot, esim.
       * #otsikko - Biologia, Matematiikka...
       * h1 - Kaavoja, Taulukoita, Järjestelmät, (JA/TAI aihealueet kuten Genetiikka, Ekologinen luokittelu, Biomolekyylit)
-      * h2 - <section>:n pääotsikko / pääotsikot
+      * h2 - section:n pääotsikko / pääotsikot
       * h3 - Kaavan otsikko
-      * h4 - <section>:n alaotsikko / Taulukon otsikko 
+      * h4 - section:n alaotsikko / Taulukon otsikko 
   * div, section, body
   * lähes kaikki tyylimäärittely CSS:llä, erityisesti class, mutta minimaalisesti?
     * body width? (kirjamaisuus, ei täytä koko leveää näyttöä)
