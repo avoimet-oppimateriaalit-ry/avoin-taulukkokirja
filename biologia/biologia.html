@@ -15,25 +15,34 @@
     wf.async = 'true';
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(wf, s);
-  })(); </script>
+  })();
+</script>
 <style>
-
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size:14px;
+	max-width:70em;
+	margin:auto;
 }
 h1 {
-	margin: 0.5em 0.5em 0.5em 0.5em;
+	margin: 1.5em 0.5em 0.5em 0.5em;
 	border-top:0.5em solid black;
 }
 h2 {
 	margin-left:0em;
+	margin-top:0.5em;
 }
 h3 {	
 	text-align:center;
 	margin-bottom:0em;
 }
 div {
+	display:block;
+	vertical-align: top;
+	margin:14px;
+}
+
+section div {
 	display:inline-block;
 	vertical-align: top;
 	margin-left:1.8em;
@@ -44,13 +53,43 @@ section {
 	padding:0.5em;
 	border-radius:0.5em;
 }
+#otsikko {
+	font-size:3em;
+	font-weight:bold;
+	color:#598CE9;
+}
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{padding:5px 10px;border-style:solid;border-width:0px;overflow:visible;word-break:normal;white-space:nowrap;vertical-align: top;}
+.tg th{font-weight:bold;padding:5px 10px;border-bottom:2px solid black;overflow:hidden;word-break:normal;vertical-align: bottom;}
+white-space: nowrap;
+.tg .tg-a1rn{border-right:1px solid black;}
+.tg .tg-5y5n{border-left:1px solid black;white-space:normal;}
+.tg .tg-hv79{border-right:1px solid black;border-top:1px solid black;}
+.tg .tg-walu{border-top:1px solid black;}
+.tg .tg-19vt{border-right:1px solid black;border-top:1px solid black;}
+.tg .tg-bdps{border-top:1px solid black;}
+.tg .tg-34pk{border-right:1px solid black;border-top:1px solid black;}
+.tg .tg-b13j{border-top:1px solid black;}
+.tg .tg-mn6f{border-right:1px solid black;border-top:1px solid black;}
+.tg .tg-38zm{border-top:1px solid black;}
+.tg .tg-33yv{border-right:1px solid black;border-top:1px solid black;}
+.tg .tg-t04w{border-top:1px solid black;}
+.tg .tg-13j4{border-right:1px solid black;border-top:1px solid black;}
+.tg .tg-osmx{border-top:1px solid black;}
+.tg .tg-tk17{border-right:1px solid black;border-top:1px solid black;}
+.tg .tg-wc4u{border-top:1px solid black;}
+table {margin-bottom:3em;}
+.viiva {border-top:1px solid black;}
 </style>
 <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 </head> 
 <body> 
 
-<h1>Biologia</h1>
+<div id="otsikko">Biologia</div>
+
+<h1>Kaavoja</h1>
 
 <section>
 <header>
@@ -70,6 +109,7 @@ e &=& \text{Neperin luku}
 
 </header>
 <!-- Kahteen riviin: ylärivi Rekursiivinen; alarivi Analyyttinen (suora aikariippuvuus) T: JoonasD6-->
+
 
 <div>
 <h3>Logistinen malli</h3>
@@ -120,5 +160,316 @@ N_{t+1} = \frac{N_t}{K}
 </section>
 
 
-</body> 
+<h1>Genetiikka</h1>
+
+<section>
+<h2>Geenien määrä eliöissä</h2>
+<h2>Kromosomien määrä eliöissä</h2>
+<h2>Mutaationopeus eliöissä</h2>
+<h2>Geneettinen koodi</h2>
+        <h3>Kodoni-aminohappotaulukko</h3>
+</section>
+
+
+<h1>Ekologinen luokittelu</h1>
+
+<section>
+
+<h2>Metsätyypit: Etelä-Suomi</h2>
+<table class="tg">
+  <tr>
+    <th class="tg-a1rn">Kasvupaikkaluokka</th>
+    <th class="tg-031e">Kasvupaikkatyyppi (suomeksi)</th>
+    <th class="tg-031e">Kasvupaikkatyyppi (tieteelliset nimet)<br></th>
+    <th class="tg-031e">Lyhenne</th>
+    <th class="tg-5y5n">Opaskasvit</th>
+  </tr>
+
+  <tr>
+    <td class="tg-mn6f">karukkokangas</td>
+    <td class="tg-38zm">jäkälätyyppi</td>
+    <td class="tg-38zm">Cladina-tyyppi</td>
+    <td class="tg-38zm">ClT</td>
+    <td class="tg-5y5n"></td>
+  </tr>
+  <tr>
+    <td class="tg-34pk" rowspan="2">kuivahko kangas<br></td>
+    <td class="tg-b13j">kanervatyyppi</td>
+    <td class="tg-b13j">Calluna-tyyppi</td>
+    <td class="tg-b13j">CT</td>
+    <td class="tg-5y5n">kielo, kultapiisku, kissankäpälä<br></td>
+  </tr>
+  <tr>
+    <td class="tg-031e">häränsilmä-kanervatyyppi</td>
+    <td class="tg-031e">Hypochoeris-Calluna-tyyppi</td>
+    <td class="tg-031e">HyCT</td>
+    <td class="tg-5y5n"></td>
+  </tr>
+  <tr>
+    <td class="tg-33yv" rowspan="2">kuiva kangas<br></td>
+    <td class="tg-t04w">puolukkatyyppi</td>
+    <td class="tg-t04w">Vaccinium-tyyppi</td>
+    <td class="tg-t04w">VT</td>
+    <td class="tg-5y5n">metsätähti, lillukka, nuokkutalvikki, oravanmarja, kevätpiippo<br></td>
+  </tr>
+  <tr>
+    <td class="tg-031e">häränsilmä-puolukkatyyppi</td>
+    <td class="tg-031e">Hypochoeris-Vaccinium-tyyppi</td>
+    <td class="tg-031e">HyVT</td>
+    <td class="tg-5y5n"></td>
+  </tr>
+  <tr>
+    <td class="tg-13j4">tuore kangas<br></td>
+    <td class="tg-osmx">mustikkatyyppi</td>
+    <td class="tg-osmx">Myrtillus-tyyppi</td>
+    <td class="tg-osmx">MT</td>
+    <td class="tg-5y5n">metsäkurjenpolvi, metsäimarre, pyöreälehtitalvikki, metsäkorte, metsämansikka, metsämaitikka, vadelma<br></td>
+  </tr>
+  <tr>
+    <td class="tg-tk17" rowspan="2">lehtomainen kangas<br></td>
+    <td class="tg-wc4u">käenkaali-mustikkatyyppi</td>
+    <td class="tg-wc4u">Oxalis-Myrtillus-tyyppi</td>
+    <td class="tg-wc4u">OMT</td>
+    <td class="tg-5y5n">käenkaali, nuokkuhelmikkä, kevätlinnunherne, sinivuokko, vuohenputki, metsäorvokki, ketunlieko, sormisara, metsäliekosammal<br></td>
+  </tr>
+
+  <tr>
+    <td class="tg-031e">talvikkityyppi</td>
+    <td class="tg-031e">Pyrola-tyyppi</td>
+    <td class="tg-031e">PyT</td>
+    <td class="tg-5y5n"></td>
+  </tr>
+
+  <tr>
+    <td class="tg-hv79" rowspan="5">kuivat lehdot<br></td>
+    <td class="tg-walu">puolukka-lillukkatyyppi</td>
+    <td class="tg-walu">Vaccinium-Rubus-tyyppi</td>
+    <td class="tg-walu">VRT</td>
+    <td class="tg-5y5n" rowspan="11">lehto-orvokki, lehtotähtimö, lehtokuusama, koiranheisi, näsiä, lehtisammalet</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">nuokkuhelmikkä-linnunhernetyyppi</td>
+    <td class="tg-031e">Melica-Lathyrus-tyyppi</td>
+    <td class="tg-031e">MeLaT</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">puolukka-mansikkatyyppi</td>
+    <td class="tg-031e">Vaccinium-Fragaria-tyyppi</td>
+    <td class="tg-031e">VFrT</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">karvasputki-metsäapilatyyppi</td>
+    <td class="tg-031e">Laserpitium-Trifolium-tyyppi-</td>
+    <td class="tg-031e">LasTrT</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">maarianverijuuri-mäkimeiramityyppi</td>
+    <td class="tg-031e">Agrimonia-Origanum-tyyppi</td>
+    <td class="tg-031e">AgrOrT</td>
+  </tr>
+  <tr>
+    <td class="tg-19vt" rowspan="3">tuoreet lehdot<br></td>
+    <td class="tg-bdps">käenkaali-oravanmarjatyyppi</td>
+    <td class="tg-bdps">Oxalis-Maianthenum-tyyppi</td>
+    <td class="tg-bdps">OMaT</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">sinivuokko-käenkaalityyppi</td>
+    <td class="tg-031e">Hepatica-Oxalis-tyyppi</td>
+    <td class="tg-031e">HeOT</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">vuohenputkityyppi</td>
+    <td class="tg-031e">Aegopodium-tyyppi</td>
+    <td class="tg-031e">AegT</td>
+  </tr>
+  <tr>
+    <td class="tg-34pk" rowspan="3">kosteat lehdot<br></td>
+    <td class="tg-b13j">saniaistyyppi</td>
+    <td class="tg-b13j">Filices-tyyppi</td>
+    <td class="tg-b13j">FT</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">hiirenporras-käenkaali-tyyppi</td>
+    <td class="tg-031e">Athyrium-Oxalis-tyyppi</td>
+    <td class="tg-031e">AthOT</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">käenkaali-mesiangervotyyppi</td>
+    <td class="tg-031e">Oxalis-Filipendula-tyyppi</td>
+    <td class="tg-031e">OFiT</td>
+  </tr>
+
+  <tr>
+  <td class="tg-031e" colspan="5"><br/><em>Hotanen, J-P., Mäkipää R., Nousiainen H., Reinikainen A., Tonteri T. 2008. Metsätyypit – opas kasvupaikkojen 
+
+luokitteluun. Karisto Oy, Hämeenlinna.</em></td>
+  </tr>
+</table>
+
+
+
+
+<h2>Suotyypit</h2>
+
+<table class="tg">
+  <tr>
+    <th class="tg-031e">Pääsuotyyppi</th>
+    <th class="tg-031e"></th>
+    <th class="tg-031e">Suotyyppi</th>
+    <th class="tg-031e">Kirjainlyhenne</th>
+  </tr>
+
+  <tr>
+    <td class="tg-031e" rowspan="9">Korvet</td>
+    <td class="tg-031e" rowspan="9"><br></td>
+    <td class="tg-031e">Kangaskorpi</td>
+    <td class="tg-031e">KgK</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Mustikkakorpi</td>
+    <td class="tg-031e">MK</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Puolukkakorpi</td>
+    <td class="tg-031e">PK</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Varsinainen lettokorpi</td>
+    <td class="tg-031e">VLK</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Lehtokorpi</td>
+    <td class="tg-031e">LhK</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Ruohoinen sarakorpi</td>
+    <td class="tg-031e">RhSK</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Varsinainen sarakorpi</td>
+    <td class="tg-031e">VSK</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Pallosarakorpi</td>
+    <td class="tg-031e">PsK</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Ruohokorpi</td>
+    <td class="tg-031e">RhK</td>
+  </tr>
+
+  <tr class="viiva">
+    <td class="tg-031e" rowspan="8">Rämeet</td>
+    <td class="tg-031e" rowspan="8"><br></td>
+    <td class="tg-031e">Rahkaräme</td>
+    <td class="tg-031e">RaR</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Korpiräme</td>
+    <td class="tg-031e">KR</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Isovarpuräme</td>
+    <td class="tg-031e">IR</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Ruohoinen sararäme</td>
+    <td class="tg-031e">RhSR</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Kangasräme</td>
+    <td class="tg-031e">KgR</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Varsinainen sararäme</td>
+    <td class="tg-031e">VSR</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Lyhytkorsiräme</td>
+    <td class="tg-031e">LkR</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Tupasvillaräme</td>
+    <td class="tg-031e">TR</td>
+  </tr>
+
+  <tr class="viiva">
+    <td class="tg-031e" rowspan="6">Avosuot</td>
+    <td class="tg-031e" rowspan="5">Nevat</td>
+    <td class="tg-031e">Rahkaneva</td>
+    <td class="tg-031e">RaN</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Ruohoinen saraneva       </td>
+    <td class="tg-031e">RhSN</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Varsinainen saraneva</td>
+    <td class="tg-031e">VSN</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Lyhytkorsikalvakkaneva</td>
+    <td class="tg-031e">LkKaN</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Lyhytkorsineva</td>
+    <td class="tg-031e">LkN</td>
+  </tr>
+
+  <tr>
+    <td class="tg-031e">Letot</td>
+    <td class="tg-031e">Rahkainen lettoräme = rämeletto</td>
+    <td class="tg-031e">RaLR = RL</td>
+  </tr>
+
+  <tr class="viiva">
+    <td class="tg-031e" rowspan="5">Ei-luonnontilaiset / Ojitetut</td>
+    <td class="tg-031e" rowspan="5">Turvekankaat</td>
+    <td class="tg-031e">Jäkäläturvekangas</td>
+    <td class="tg-031e">Jätkg</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Varputurvekangas</td>
+    <td class="tg-031e">Vatkg</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Puolukkaturvekangas</td>
+    <td class="tg-031e">Ptkg</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Mustikkaturvekangas</td>
+    <td class="tg-031e">Mtkg</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Ruohoturvekangas</td>
+    <td class="tg-031e">Rhtkg</td>
+  </tr>
+
+  <tr>
+  <td class="tg-031e" colspan="3"><br/><em>Laine, J. & Vasander, H. 2005. Suotyypit ja niiden tunnistaminen. Karisto Oy, Hämeenlinna.</em></td>
+  </tr>
+
+</table>
+
+
+</section>
+
+<h1>Biomolekyylit</h1>
+
+<section>
+<h2>Entsyymien luokittelu</h2>
+</section>
+
+
+<h1>Anatomiset rakenteet</h1>
+
+<section>
+<h2>Hermot</h2>
+        <h3>Aivohermot</h3>
+        <h3>Selkärankahermot</h3>
+</section>
+
+
+</body>
 </html>
