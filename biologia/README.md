@@ -8,6 +8,7 @@ Avoin taulukkokirja
 * Sisällysluettelo
   * Manuaalisesti?
 * Ladonta PDF:ksi?
+  * [@page @media](http://stackoverflow.com/a/14621368)
 * HTML + CSS
   * Kts. [biologia.html](https://github.com/avoimet-oppimateriaalit-ry/avoin-taulukkokirja/blob/master/biologia/biologia.html) ja [esikatselu](https://rawgit.com/avoimet-oppimateriaalit-ry/avoin-taulukkokirja/master/biologia/biologia.html)
   * Taulukot
