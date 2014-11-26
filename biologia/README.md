@@ -8,6 +8,7 @@ Avoin taulukkokirja
 * Sisällysluettelo
   * Manuaalisesti?
 * Ladonta PDF:ksi?
+  * .epub
   * [@page @media](http://stackoverflow.com/a/14621368)
   * Monenlaisia lopputuloksia. Jotenkuten OK, mutta *sivunvaihto* olennainen ongelma, [katso raa'at vedokset](http://kaikkeus.dy.fi/aliopisto/avoin/taulukkokirja/biologia/PDF-kokeilut)
 * HTML + CSS
