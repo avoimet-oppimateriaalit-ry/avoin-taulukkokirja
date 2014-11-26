@@ -9,6 +9,7 @@ Avoin taulukkokirja
   * Manuaalisesti?
 * Ladonta PDF:ksi?
   * [@page @media](http://stackoverflow.com/a/14621368)
+  * Monenlaisia lopputuloksia. Jotenkuten OK, mutta *sivunvaihto* olennainen ongelma, [katso raa'at vedokset](http://kaikkeus.dy.fi/aliopisto/avoin/taulukkokirja/biologia/PDF-kokeilut)
 * HTML + CSS
   * Kts. [biologia.html](https://github.com/avoimet-oppimateriaalit-ry/avoin-taulukkokirja/blob/master/biologia/biologia.html) ja [esikatselu](https://rawgit.com/avoimet-oppimateriaalit-ry/avoin-taulukkokirja/master/biologia/biologia.html)
   * Taulukot
