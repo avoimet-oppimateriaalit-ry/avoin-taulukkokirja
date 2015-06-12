@@ -84,6 +84,8 @@ reaalilukujen aksioomat
     * Korrelaatio, regressio
 * Prosentti- ja korkolaskut
 
+taulukko erilaisista funktioista määrittelyjoukko, derivaatta, kuvaaja, ...)
+
 ## Taulukoita
 
 * Trigonometriset funktiot
