@@ -2,7 +2,7 @@
 
 ## Alku
 * Kreikkalaiset aakkoset
-* Vakioita
+* Vakioita $testi f_2(x)^3$
 * ...?
 
 ## Määritelmiä ja kaavoja
