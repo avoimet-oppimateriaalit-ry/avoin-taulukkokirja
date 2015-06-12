@@ -4,6 +4,16 @@
 * Kreikkalaiset aakkoset
 * Vakioita $testi f_2(x)^3$
 * ...?
+* 
+Numeromerkit
+
+
+merkintöjä ja symboleja
+
+
+lukujoukot (Venn+määritelmä)
+
+reaalilukujen aksioomat
 
 ## Määritelmiä ja kaavoja
 * Joukko-oppi
