@@ -32,7 +32,7 @@
 Numeromerkit [DONE SIIVONEN]
 
 
-merkintöjä ja symboleja
+merkintöjä ja symboleja [OSIN VALMIS]
 
 
 lukujoukot (Venn+määritelmä)
