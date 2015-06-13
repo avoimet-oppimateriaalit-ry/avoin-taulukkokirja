@@ -121,4 +121,4 @@ taulukko erilaisista funktioista määrittelyjoukko, derivaatta, kuvaaja, ...)
 
 
 - muuta mitä tehty:
-   - trigonometristen funktioiden tarkkoja arvoja [DONE SIIVONEN, TODO LISÄÄ 45 monikerrat]
+   - trigonometristen funktioiden tarkkoja arvoja [DONE SIIVONEN]
