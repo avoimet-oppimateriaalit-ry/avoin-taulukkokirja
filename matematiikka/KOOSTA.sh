@@ -1,6 +1,6 @@
 #!/bin/bash
-rm kooste.html
+rm -f kooste.html
 while IFS='' read -r line || [[ -n $line ]]; do
-    sed -e 's/.*<!---PÄÄ DOKUMENTTIIN KOPIOITAVA OSA ALKAA -->//' -e 's:"<!---PÄÄ DOKUMENTTIIN KOPIOITAVA OSA LOPPUU -->$::' $line >> kooste.html
+    sed -n '/<!---PÄÄ DOKUMENTTIIN KOPIOITAVA OSA ALKAA -->/,/<!---PÄÄ DOKUMENTTIIN KOPIOITAVA OSA LOPPUU -->/p' $line >> kooste.html
 done < "$1"
 
