@@ -7,7 +7,7 @@
 # Matematiikkaan
 
 ## Alku
-* Kreikkalaiset aakkoset
+* Kreikkalaiset aakkoset [DONE SIIVONEN]
 * Vakioita
 * ...?
 * 
@@ -70,7 +70,7 @@ reaalilukujen aksioomat
     * Integroimiskaavoja
     * Määrätty integraali
     * Lauseita? Sovelluksia?
-* Numeerisia menetelmiä
+* Numeerisia menetelmiä [TODO SIIVONEN]
 * Sarjateoriaa
 (Vektorianalyysi???)
 * Logiikka
@@ -100,3 +100,9 @@ taulukko erilaisista funktioista määrittelyjoukko, derivaatta, kuvaaja, ...)
 * ...
 
 ## Kirjallisuuslähteet
+
+
+
+
+- muuta mitä tehty:
+   - trigonometristen funktioiden tarkkoja arvoja [DONE SIIVONEN, TODO LISÄÄ 45 monikerrat]
