@@ -19,7 +19,7 @@ merkintöjä ja symboleja
 
 lukujoukot (Venn+määritelmä)
 
-reaalilukujen aksioomat
+reaalilukujen aksioomat [TODO SIIVONEN]
 
 ## Määritelmiä ja kaavoja
 * Joukko-oppi
