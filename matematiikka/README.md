@@ -26,7 +26,7 @@
 
 ## Alku
 * Kreikkalaiset aakkoset [DONE SIIVONEN]
-* Vakioita
+* Vakioita [DONE SIIVONEN]
 * ...?
 * 
 Numeromerkit
