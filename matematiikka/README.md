@@ -19,6 +19,9 @@
 - https://rawgit.com/avoimet-oppimateriaalit-ry/avoin-taulukkokirja/master/matematiikka/MerkintojaJaSymboleja.html _MerkintojaJaSymboleja_ 
 - https://rawgit.com/avoimet-oppimateriaalit-ry/avoin-taulukkokirja/master/matematiikka/aksioomat.html _aksioomat_ 
 
+##KOOSTE
+- https://rawgit.com/avoimet-oppimateriaalit-ry/avoin-taulukkokirja/master/matematiikka/kooste.html _Funktiot_
+
 
 
 
