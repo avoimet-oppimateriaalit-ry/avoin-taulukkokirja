@@ -86,7 +86,7 @@ reaalilukujen aksioomat [DONE SIIVONEN]
     * Integroimiskaavoja
     * Määrätty integraali
     * Lauseita? Sovelluksia?
-* Numeerisia menetelmiä [TODO SIIVONEN, DONE:newton, sektantti, Taylorin polynomi ]
+* Numeerisia menetelmiä [DONE SIIVONEN]
 * Sarjateoriaa
 (Vektorianalyysi???)
 * Logiikka
