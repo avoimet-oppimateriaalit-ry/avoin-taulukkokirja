@@ -11,6 +11,7 @@
    - voi käyttää ääkkösiä, mutta ehkä parempi, että ei tiedostonimissä...
 
 ## LINKIT ERI TIEDOSTOIHIN 
+- https://rawgit.com/avoimet-oppimateriaalit-ry/avoin-taulukkokirja/master/matematiikka/NumeerisiaMenetelmia.html _NumeerisiaMenetelmia_ 
 - https://rawgit.com/avoimet-oppimateriaalit-ry/avoin-taulukkokirja/master/matematiikka/Logiikka.html _Logiikka_ 
 - https://rawgit.com/avoimet-oppimateriaalit-ry/avoin-taulukkokirja/master/matematiikka/MerkintojaJaSymboleja.html _MerkintojaJaSymboleja_ 
 - https://rawgit.com/avoimet-oppimateriaalit-ry/avoin-taulukkokirja/master/matematiikka/aksioomat.html _aksioomat_ 
