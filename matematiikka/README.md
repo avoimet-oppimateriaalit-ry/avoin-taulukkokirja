@@ -11,6 +11,7 @@
    - voi käyttää ääkkösiä, mutta ehkä parempi, että ei tiedostonimissä...
 
 ## LINKIT ERI TIEDOSTOIHIN 
+- https://rawgit.com/avoimet-oppimateriaalit-ry/avoin-taulukkokirja/master/matematiikka/Lajittelematon.html _Lajittelematon_ 
 - https://rawgit.com/avoimet-oppimateriaalit-ry/avoin-taulukkokirja/master/matematiikka/EuklideenGeometria.html _EuklideenGeometria_ 
 - https://rawgit.com/avoimet-oppimateriaalit-ry/avoin-taulukkokirja/master/matematiikka/NumeerisiaMenetelmia.html _NumeerisiaMenetelmia_ 
 - https://rawgit.com/avoimet-oppimateriaalit-ry/avoin-taulukkokirja/master/matematiikka/Logiikka.html _Logiikka_ 
@@ -25,10 +26,10 @@
 
 ## Alku
 * Kreikkalaiset aakkoset [DONE SIIVONEN]
-* Vakioita
+* Vakioita [DONE SIIVONEN]
 * ...?
 * 
-Numeromerkit
+Numeromerkit [DONE SIIVONEN]
 
 
 merkintöjä ja symboleja
