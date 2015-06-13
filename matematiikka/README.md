@@ -29,7 +29,7 @@
 * Vakioita [DONE SIIVONEN]
 * ...?
 * 
-Numeromerkit
+Numeromerkit [DONE SIIVONEN]
 
 
 merkintöjä ja symboleja
