@@ -90,7 +90,7 @@ reaalilukujen aksioomat [TODO SIIVONEN]
 * Sarjateoriaa
 (Vektorianalyysi???)
 * Logiikka
-    * Konnektiivit [TODO SIIVONEN]
+    * Konnektiivit [DONE SIIVONEN]
     * Totuustaulukko [DONE SIIVONEN]
     * Kvanttorit
 * Kombinatoriikka
