@@ -32,3 +32,5 @@ Avoin taulukkokirja
   
 ##Vinkkejä
  * [HTML-taulukoiden luominen](http://www.tablesgenerator.com/html_tables)
+ 
+## LINKIT ERI TIEDOSTOIHIN 
