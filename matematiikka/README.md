@@ -5,7 +5,7 @@
 ###Uuden tiedoston lisääminen
    - aja kansiossa oleva uusi.sh ja anna sille parametrina otsikko
    - eli esim "./uusi.sh aksioomat"
-   - uusi.sh luo tiedoston aksioomat.html ja lisää samalla rawgit linkin readme-tiedostoon
+   - uusi.sh luo tiedoston aksioomat.html ja lisää samalla rawgit-linkin readme-tiedostoon
    - _HUOM_ tällä hetkellä ei tarkistusta onko tiedosto jo olemassa joten tarkista ettet yritä luoda saman nimistö kahteen kertaan...
    - _HUOM_ älä anna parametrina stringiä, jossa välejä, käytetään **CamelCase**-tyyliä 
    - voi käyttää ääkkösiä, mutta ehkä parempi, että ei tiedostonimissä...
