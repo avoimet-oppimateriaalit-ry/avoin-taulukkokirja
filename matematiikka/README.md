@@ -91,7 +91,7 @@ reaalilukujen aksioomat [TODO SIIVONEN]
 (Vektorianalyysi???)
 * Logiikka
     * Konnektiivit
-    * Totuustaulukko
+    * Totuustaulukko [DONE SIIVONEN]
     * Kvanttorit
 * Kombinatoriikka
     * Kertoma, Stirlingin kaava
