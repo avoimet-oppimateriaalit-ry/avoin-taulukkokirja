@@ -6,11 +6,12 @@
 * Kromosomien määrä eliöissä
 * Mutaationopeus eliöissä
 * Geneettinen koodi
-  * Kodoni-aminohappotaulukko
+  * ~~Kodoni-aminohappotaulukko~~ (tehnyt Roni)
 
 ## Ekologinen luokittelu
 * Kasvillisuusvyöhykkeet
-  * Suomen metsätyypit
+  * Suomen metsätyypit                                  (Roni tekemässä)
+  * Suomen suotyypit                                    (Roni tekemässä)
 
 ## Eliöiden luokittelu
 * Joitakin taksoneita
@@ -21,7 +22,7 @@
 ## Anatomiset rakenteet
 * Aiohermot, selkärankahermot...
 
-## Kaavat
+## Kaavat                                              (Roni tekemässä)
 * Logistisen kasvun malli 
 * Eksponentiaalisen kasvun malli
 * Populaation kasvun ja kilpailun mallit
