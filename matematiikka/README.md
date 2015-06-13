@@ -59,9 +59,9 @@ reaalilukujen aksioomat [DONE SIIVONEN]
     * ...
     * Abstraktia algebraa(?)
     * Boolen algebra
-* Euklideen geometria
+* Euklideen geometria 
     * piste, suora, taso(?)
-    * euklidisen geometrian aksioomat
+    * euklidisen geometrian aksioomat [TODO SIIVONEN]
     * ympyrät
     * kolmiot, lauseet
     * nelikulmiot, säännölliset monikulmiot
