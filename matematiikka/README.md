@@ -2,6 +2,17 @@
 - pyritään pitämää eri aiheet omissa tiedostoissaan, lopussa yhdistetään (helpotusta mergeilyyn)
 - alla tarvittavat aihealueet, merkkaa mitä olet tekemässä niin ei tule tehtyä päällekäisyyksiä ja kun valmista merkkaa tehdyksi
 
+###Uuden tiedoston lisääminen
+    - aja kansiossa oleva uusi.sh ja anna sille parametrina otsikko
+    - eli esim "./uusi.sh aksioomat"
+    - uusi.sh luo tiedoston aksioomat.html ja lisää samalla rawgit linkin readme-tiedostoon
+    - _HUOM_ tällä hetkellä ei tarkistusta onko tiedosto jo olemassa joten tarkista ettet yritä luoda saman nimistö kahteen kertaan...
+
+- LINKIT ERI TIEDOSTOIHIN 
+- https://rawgit.com/avoimet-oppimateriaalit-ry/avoin-taulukkokirja/master/matematiikka/aksioomat.html _aksioomat_ 
+
+
+
 
 
 # Matematiikkaan
