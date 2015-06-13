@@ -11,6 +11,7 @@
    - voi käyttää ääkkösiä, mutta ehkä parempi, että ei tiedostonimissä...
 
 ## LINKIT ERI TIEDOSTOIHIN 
+- https://rawgit.com/avoimet-oppimateriaalit-ry/avoin-taulukkokirja/master/matematiikka/NumeerisiaMenetelmia.html _NumeerisiaMenetelmia_ 
 - https://rawgit.com/avoimet-oppimateriaalit-ry/avoin-taulukkokirja/master/matematiikka/Logiikka.html _Logiikka_ 
 - https://rawgit.com/avoimet-oppimateriaalit-ry/avoin-taulukkokirja/master/matematiikka/MerkintojaJaSymboleja.html _MerkintojaJaSymboleja_ 
 - https://rawgit.com/avoimet-oppimateriaalit-ry/avoin-taulukkokirja/master/matematiikka/aksioomat.html _aksioomat_ 
@@ -85,12 +86,12 @@ reaalilukujen aksioomat [TODO SIIVONEN]
     * Integroimiskaavoja
     * Määrätty integraali
     * Lauseita? Sovelluksia?
-* Numeerisia menetelmiä [TODO SIIVONEN]
+* Numeerisia menetelmiä [TODO SIIVONEN, DONE:newton, sektantti, Taylorin polynomi ]
 * Sarjateoriaa
 (Vektorianalyysi???)
 * Logiikka
-    * Konnektiivit
-    * Totuustaulukko
+    * Konnektiivit [DONE SIIVONEN]
+    * Totuustaulukko [DONE SIIVONEN]
     * Kvanttorit
 * Kombinatoriikka
     * Kertoma, Stirlingin kaava
