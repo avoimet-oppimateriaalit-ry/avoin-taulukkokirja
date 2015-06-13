@@ -86,11 +86,11 @@ reaalilukujen aksioomat [TODO SIIVONEN]
     * Integroimiskaavoja
     * Määrätty integraali
     * Lauseita? Sovelluksia?
-* Numeerisia menetelmiä [TODO SIIVONEN]
+* Numeerisia menetelmiä [TODO SIIVONEN, DONE:newton, sektantti, Taylorin polynomi ]
 * Sarjateoriaa
 (Vektorianalyysi???)
 * Logiikka
-    * Konnektiivit
+    * Konnektiivit [TODO SIIVONEN]
     * Totuustaulukko [DONE SIIVONEN]
     * Kvanttorit
 * Kombinatoriikka
