@@ -99,10 +99,16 @@ MathJax.Hub.Config({
 
 Kaavoissa $x$ ja $x_1, x_2, x_3, ...$ ovat yleisiä muuttujia sekä $k$ ja $x_0$ mielivaltainen arvo.
 
-<h1>Raja-arvo</h1>
+<h1>Raja-arvo ja funktion jatkuvuus</h1>
 
 <section>
 <h2>Raja-arvon määritelmä</h2>
+$$\lim_{x \to a}f(x)=L \Leftrightarrow (\forall \epsilon>0)(\exists \delta > 0 )(\forall x)(0<|x-c|<\delta \Rightarrow |f(x)-L|<\epsilon)$$
+
+<h2>Raja-arvon laskusääntöjä</h2>
+$$\lim [f(x)+g(x)]=\lim f(x) + \lim g(x)$$
+<h2>Funktion jatkuvuus</h2>
+Funktio $f$ on jatkuva kohdassa $x=a$, jos ja vain jos: $$\lim {x \to a} f(x)=f(a)$$
 </section>
 
 
@@ -110,15 +116,16 @@ Kaavoissa $x$ ja $x_1, x_2, x_3, ...$ ovat yleisiä muuttujia sekä $k$ ja $x_0$
 
 <section>
 <h2>Derivaatan määritelmä (erotusosamäärän raja-arvo)</h2>
-$$f'(x_0)=\lim_{x->x_0}\frac{f(x)-f(x_0)}{x-x_0}=\lim_{h->0}\frac{f(x_0)-f(x_0+h)}{h}$$
+$$f'(x_0)=\lim_{x \to x_0}\frac{f(x)-f(x_0)}{x-x_0}=\lim_{h \to 0}\frac{f(x_0)-f(x_0+h)}{h}$$
 <h2>Merkitsemistapoja</h2>
-$$f'(x)=Df(x)=\frac{\mathram{d}f}{\mathrm{d}x}$$
-$$f'(x_0)=\mathrm{D}f(x)=\frac{\mathram{d}f}{\mathrm{d}x}$$
+$$f'(x)=Df(x)=\frac{\mathrm{d}f}{\mathrm{d}x}$$
+$$f'(x_0)=\mathrm{D}f(x)=\frac{\mathrm{d}f}{\mathrm{d}x}$$
 <h2> Differentiaalin määritelmä</h2>
-$$\mathrm{d}f(x)=f'(x)\mathrm{d}x
+$$\mathrm{d}f(x)=f'(x)\mathrm{d}x$$
 <h2> Derivaatan laskusääntöjä </h2>
 $$\mathrm{D}jf(x)=D\mathrm{D)f(x)$$
 </section>
+
 
 <h1>Integraalilaskenta</h1>
 <section>
