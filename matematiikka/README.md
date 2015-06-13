@@ -1,8 +1,14 @@
+- Toteutus suoritetaan suoraan html
+- pyritään pitämää eri aiheet omissa tiedostoissaan, lopussa yhdistetään (helpotusta mergeilyyn)
+- alla tarvittavat aihealueet, merkkaa mitä olet tekemässä niin ei tule tehtyä päällekäisyyksiä ja kun valmista merkkaa tehdyksi
+
+
+
 # Matematiikkaan
 
 ## Alku
-* Kreikkalaiset aakkoset
-* Vakioita $testi f_2(x)^3$
+* Kreikkalaiset aakkoset [DONE SIIVONEN]
+* Vakioita
 * ...?
 * 
 Numeromerkit
@@ -13,7 +19,7 @@ merkintöjä ja symboleja
 
 lukujoukot (Venn+määritelmä)
 
-reaalilukujen aksioomat
+reaalilukujen aksioomat [TODO SIIVONEN]
 
 ## Määritelmiä ja kaavoja
 * Joukko-oppi
@@ -64,7 +70,7 @@ reaalilukujen aksioomat
     * Integroimiskaavoja
     * Määrätty integraali
     * Lauseita? Sovelluksia?
-* Numeerisia menetelmiä
+* Numeerisia menetelmiä [TODO SIIVONEN]
 * Sarjateoriaa
 (Vektorianalyysi???)
 * Logiikka
@@ -94,3 +100,9 @@ taulukko erilaisista funktioista määrittelyjoukko, derivaatta, kuvaaja, ...)
 * ...
 
 ## Kirjallisuuslähteet
+
+
+
+
+- muuta mitä tehty:
+   - trigonometristen funktioiden tarkkoja arvoja [DONE SIIVONEN, TODO LISÄÄ 45 monikerrat]
