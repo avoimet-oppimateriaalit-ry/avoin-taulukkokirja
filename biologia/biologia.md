@@ -22,6 +22,10 @@
 ## Anatomiset rakenteet
 * Aiohermot, selkärankahermot...
 
+## Toksikologia
+* ~~Akuutti myrkyllisyys: LD50-arvoja~~  (tehnyt Roni)
+* Krooninen myrkyllisyys, ympäristömyrkyt?
+
 ## Kaavat                                              (Roni tekemässä)
 * Logistisen kasvun malli 
 * Eksponentiaalisen kasvun malli
@@ -39,3 +43,7 @@
   * Skellam-jakauma
   * Binomijakauma
   * Negatiivinen binomijakauma
+
+## Ympäristön aineet
+* Pitoisuudet, massat, jakaumat
+* Entalpiat
