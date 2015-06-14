@@ -96,6 +96,11 @@ table {margin-bottom:3em;}
   -moz-column-count: 3; /* Firefox */
   column-count: 3;
 }
+.neljaPalstaa {
+  -webkit-column-count: 4; /* Chrome, Safari, Opera */
+  -moz-column-count: 4; /* Firefox */
+  column-count: 4;
+}
 </style>
 
 <script type="text/x-mathjax-config">
@@ -121,7 +126,7 @@ MathJax.Hub.Config({
 <h2>Merkintöjä Ja Symboleja</h2>
 <section>
 <h3>Kreikkalaiset aakkoset </h3>
-<div class="kolmePalstaa">
+<div class="neljaPalstaa">
 <table class="tg" id="kreikkalaiset">
   <tr>
     <td class="tg-031e">$$ \alpha, A $$</td>
@@ -221,13 +226,9 @@ MathJax.Hub.Config({
   </tr>
 </table>
 </div>
-
+<div class="neljaPalstaa">
 <h3>Symboleja</h3>
 <table class="tg">
-  <tr>
-    <th class="tg-031e">Merkki</th>
-    <th class="tg-031e">Selitys</th>
-  </tr>
   <tr>
     <td class="tg-031e">$$=$$</td>
     <td class="tg-031e">on yhtä suuri kuin</td>
@@ -293,7 +294,7 @@ MathJax.Hub.Config({
     <td class="tg-031e">joukko</td>
   </tr>
 </table>
-
+</div>
 
 <h3>Numeromerkit</h3>
         <table class="tg">
@@ -436,12 +437,8 @@ MathJax.Hub.Config({
 
 <h3>Lukujoukot</h3>
 
-
-<table> 
- <tr>
-    <th class="tg-031e">tunnus</th>
-    <th class="tg-031e">joukko</th>
-  </tr>
+<div class="neljaPalstaa">
+<table class="tg"> 
    <tr>
     <td class="tg-031e">$$\mathbb{N}$$</td>
     <td class="tg-031e">Luonnollisten lukujen joukko</td>
@@ -473,7 +470,7 @@ MathJax.Hub.Config({
   </tr>
 
 </table>
-    
+</div> 
  </section>
     
     <!---PÄÄ DOKUMENTTIIN KOPIOITAVA OSA LOPPUU -->
@@ -902,26 +899,6 @@ $$\mathrm{D}\left( \frac{f(x)}{g(x)} \right)=\frac{f'(x)g(x)-f(x)g'(x)}{g(x)^2}$
     
     <!---PÄÄ DOKUMENTTIIN KOPIOITAVA OSA LOPPUU -->
 <!---PÄÄ DOKUMENTTIIN KOPIOITAVA OSA ALKAA -->
-<!--- TODO muuta func geneerisekti -->
-<script>
-  var riveja = document.getElementById("kreikkalaiset").rows.length;
-  var numdiv = riveja/3
-  for (i = 2; i >= 0; i--) {
-    var table = document.getElementById("kreikkalaiset");
-    var x = document.createElement("TH");
-    x.className = "tg-032e"
-    var t = document.createTextNode("merkki");
-    x.appendChild(t);
-    var row = table.insertRow(numdiv*i);
-    row.appendChild(x);
-    var y = document.createElement("TH");
-    y.className = "tg-032e"
-    var c = document.createTextNode("suomeksi");
-    y.appendChild(c);
-    row.appendChild(y);
-  }
-</script>
-
 </body>
 </html>
 <!---PÄÄ DOKUMENTTIIN KOPIOITAVA OSA LOPPUU -->
