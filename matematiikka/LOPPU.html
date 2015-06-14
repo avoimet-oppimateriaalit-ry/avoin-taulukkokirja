@@ -6,11 +6,13 @@
   for (i = 2; i >= 0; i--) {
     var table = document.getElementById("kreikkalaiset");
     var x = document.createElement("TH");
+    x.className = "tg-032e"
     var t = document.createTextNode("merkki");
     x.appendChild(t);
     var row = table.insertRow(numdiv*i);
     row.appendChild(x);
     var y = document.createElement("TH");
+    y.className = "tg-032e"
     var c = document.createTextNode("suomeksi");
     y.appendChild(c);
     row.appendChild(y);

@@ -90,7 +90,7 @@ white-space: nowrap;
 table {margin-bottom:3em;}
 .viiva {border-top:1px solid black;}
 .tg tr:hover {background-color: rgba(89,140,233,0.1);}
-.tg .tg-031e {height:57px;}
+.tg .tg-032e {height:57px;}
 .kolmePalstaa {
   -webkit-column-count: 3; /* Chrome, Safari, Opera */
   -moz-column-count: 3; /* Firefox */
@@ -643,11 +643,13 @@ $$\mathrm{D}\left( \frac{f(x)}{g(x)} \right)=\frac{f'(x)g(x)-f(x)g'(x)}{g(x)^2}$
   for (i = 2; i >= 0; i--) {
     var table = document.getElementById("kreikkalaiset");
     var x = document.createElement("TH");
+    x.className = "tg-032e"
     var t = document.createTextNode("merkki");
     x.appendChild(t);
     var row = table.insertRow(numdiv*i);
     row.appendChild(x);
     var y = document.createElement("TH");
+    y.className = "tg-032e"
     var c = document.createTextNode("suomeksi");
     y.appendChild(c);
     row.appendChild(y);
