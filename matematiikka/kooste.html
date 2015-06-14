@@ -90,18 +90,26 @@ white-space: nowrap;
 table {margin-bottom:3em;}
 .viiva {border-top:1px solid black;}
 .tg tr:hover {background-color: rgba(89,140,233,0.1);}
-.tg .tg-032e {height:57px;}
+.tg .tg-031e {height:58px;}
+.kaksPalstaa {
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+}
 .kolmePalstaa {
   -webkit-column-count: 3; /* Chrome, Safari, Opera */
   -moz-column-count: 3; /* Firefox */
   column-count: 3;
-  white-space:nowrap;
 }
 .neljaPalstaa {
   -webkit-column-count: 4; /* Chrome, Safari, Opera */
   -moz-column-count: 4; /* Firefox */
   column-count: 4;
-  white-space:nowrap;
+}
+.viisPalstaa {
+  -webkit-column-count: 4; /* Chrome, Safari, Opera */
+  -moz-column-count: 4; /* Firefox */
+  column-count: 4;
 }
 </style>
 
@@ -128,7 +136,7 @@ MathJax.Hub.Config({
 <h2>Merkintöjä Ja Symboleja</h2>
 <section>
 <h3>Kreikkalaiset aakkoset </h3>
-<div class="neljaPalstaa">
+<div class="viisPalstaa">
 <table class="tg" id="kreikkalaiset">
   <tr>
     <td class="tg-031e">$$ \alpha, A $$</td>
@@ -228,8 +236,9 @@ MathJax.Hub.Config({
   </tr>
 </table>
 </div>
-<div class="neljaPalstaa">
 <h3>Symboleja</h3>
+
+<div class="kaksPalstaa">
 <table class="tg">
   <tr>
     <td class="tg-031e">$$=$$</td>
@@ -439,7 +448,7 @@ MathJax.Hub.Config({
 
 <h3>Lukujoukot</h3>
 
-<div class="neljaPalstaa">
+<div class="kaksPalstaa">
 <table class="tg"> 
    <tr>
     <td class="tg-031e">$$\mathbb{N}$$</td>
