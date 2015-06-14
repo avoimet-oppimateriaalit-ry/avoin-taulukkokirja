@@ -1,7 +1,11 @@
 ALKU.html
-Lajittelematon.html
-Logiikka.html
 MerkintojaJaSymboleja.html
-NumeerisiaMenetelmia.html
+Lajittelematon.html
+aksioomat.html
+EuklideenGeometria.html
+matematiikka_trigonometria.html
+Funktiot.html
 matematiikka_analyysi.html
+NumeerisiaMenetelmia.html
+Logiikka.html
 LOPPU.html
