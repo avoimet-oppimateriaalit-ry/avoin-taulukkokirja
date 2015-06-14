@@ -89,6 +89,11 @@ white-space: nowrap;
 table {margin-bottom:3em;}
 .viiva {border-top:1px solid black;}
 .tg tr:hover {background-color: rgba(89,140,233,0.1);}
+.kolmePalstaa {
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+  column-count: 3;
+}
 </style>
 
 <script type="text/x-mathjax-config">
@@ -234,12 +239,8 @@ MathJax.Hub.Config({
 <h2>Merkintöjä Ja Symboleja</h2>
 <section>
 <h3>Kreikkalaiset aakkoset </h3>
-
-<table class="tg">
-  <tr>
-    <th class="tg-031e">Merkki</th>
-    <th class="tg-031e">Suomeksi</th>
-  </tr>
+<div class="kolmePalstaa">
+<table class="tg" id="kreikkalaiset">
   <tr>
     <td class="tg-031e">$$ \alpha, A $$</td>
     <td class="tg-031e">Alfa</td>
@@ -337,6 +338,7 @@ MathJax.Hub.Config({
     <td class="tg-031e">Omega</td>
   </tr>
 </table>
+</div>
 
 <h3>Symboleja</h3>
 <table class="tg">
@@ -632,6 +634,24 @@ $$\mathrm{D}\left( \frac{f(x)}{g(x)} \right)=\frac{f'(x)g(x)-f(x)g'(x)}{g(x)^2}$
 
 <!---PÄÄ DOKUMENTTIIN KOPIOITAVA OSA LOPPUU -->
 <!---PÄÄ DOKUMENTTIIN KOPIOITAVA OSA ALKAA -->
+<!--- TODO muuta func geneerisekti -->
+<script>
+  var riveja = document.getElementById("kreikkalaiset").rows.length;
+  var numdiv = riveja/3
+  for (i = 2; i >= 0; i--) {
+    var table = document.getElementById("kreikkalaiset");
+    var x = document.createElement("TH");
+    var t = document.createTextNode("merkki");
+    x.appendChild(t);
+    var row = table.insertRow(numdiv*i);
+    row.appendChild(x);
+    var y = document.createElement("TH");
+    var c = document.createTextNode("suomeksi");
+    y.appendChild(c);
+    row.appendChild(y);
+  }
+</script>
+
 </body>
 </html>
 <!---PÄÄ DOKUMENTTIIN KOPIOITAVA OSA LOPPUU -->

@@ -1,4 +1,22 @@
 <!---PÄÄ DOKUMENTTIIN KOPIOITAVA OSA ALKAA -->
+<!--- TODO muuta func geneerisekti -->
+<script>
+  var riveja = document.getElementById("kreikkalaiset").rows.length;
+  var numdiv = riveja/3
+  for (i = 2; i >= 0; i--) {
+    var table = document.getElementById("kreikkalaiset");
+    var x = document.createElement("TH");
+    var t = document.createTextNode("merkki");
+    x.appendChild(t);
+    var row = table.insertRow(numdiv*i);
+    row.appendChild(x);
+    var y = document.createElement("TH");
+    var c = document.createTextNode("suomeksi");
+    y.appendChild(c);
+    row.appendChild(y);
+  }
+</script>
+
 </body>
 </html>
 <!---PÄÄ DOKUMENTTIIN KOPIOITAVA OSA LOPPUU -->
