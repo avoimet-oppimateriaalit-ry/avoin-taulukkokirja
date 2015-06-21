@@ -53,7 +53,7 @@ merkintöjä ja symboleja [OSIN VALMIS]
 
 lukujoukot (Venn+määritelmä)
 
-reaalilukujen aksioomat [~~DONE SIIVONEN~~ Nämä on vasta kuntaominaisuudet. Reaalilukujen aksiomaattiseen määrittelyyn tarvitaan myös järjestys- ja täydellisyysominaisuudet. -Aaro]
+reaalilukujen aksioomat [~~DONE SIIVONEN~~ Nämä on vasta kuntaominaisuudet. Reaalilukujen aksiomaattiseen määrittelyyn tarvitaan myös järjestys- ja täydellisyysominaisuudet. OLEN TEKEMÄS. -Aaro]
 
 ## Määritelmiä ja kaavoja
 * Joukko-oppi
