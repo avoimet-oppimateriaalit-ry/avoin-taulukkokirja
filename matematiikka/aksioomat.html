@@ -93,41 +93,105 @@
                                });
             </script>
     </head> 
-<body>
-    
-    
-    <!---PÄÄ DOKUMENTTIIN KOPIOITAVA OSA ALKAA -->
-    
-    <h2>Aksioomat</h2>
-    <section>
-        <h3>Yhteenlaskuominaisuudet</h3>
-	    $$a+b=b+a$$
-	    $$(a+c)+c=a+(b+c)$$
-	    $$a+0=a$$
-	    $$a+(-a)=0$$
-	<h3>Kertolaskuominaisuudet</h3>
-	$$a \cdot b = b \cdot a$$
-	$$(a \cdot b) \cdot c  = a \cdot (b \cdot c)$$
-	$$a \cdot 1 = a$$
-	$$a \cdot (\frac{1}{a}) = 1, a \neq $$
-	$$a \cdot (b+c) = a \cdot b + a \cdot c $$
-    </section>
-    <h2>Yleist perus juttuu $$:)$$</h2>
-    <section>
-    	<h3>Laskutoimituksia</h3>
-    	<div class="kaksPalstaa">
-    		
-  			$$\frac{a}{b} = \frac{ka}{kb}, a \neq 0$$
-  			$$\frac{a}{b} \pm \frac{c}{d} = \frac{ad \pm bc}{db}$$
-  			$$\frac{a}{b} \cdot \frac{c}{d} = \frac{ac}{db}$$
-  			$$\frac{a}{b} \mathbin{/} \frac{c}{d} = \frac{ad}{cd}$$
-		
-    	</div> 
-    </section>
-    
-    
-    <!---PÄÄ DOKUMENTTIIN KOPIOITAVA OSA LOPPUU -->
-    
-    
-</body>
+    <body>
+
+
+        <!---PÄÄ DOKUMENTTIIN KOPIOITAVA OSA ALKAA -->
+
+        <h2>Reaalilukujen määrittely aksiomaattisesti</h2>
+        <section>
+            <div>
+                Reaaliluvut voidaan määritellä täydellisenä järjestettynä kuntana $$(\mathbb{R}, +, \cdot, \leq)$$, eli algebrallisena rakenteena, joka toteuttaa seuraavat ominaisuudet:
+            </div>
+            <h3>Kunta-aksioomat</h3>
+                <table class="tg"> 
+                    <tr>
+                        <td class="tg-031e">$a+b=b+a$</td>
+                        <td class="tg-031e">Yhteenlaskun vaihdannaisuus</td>
+                    </tr>
+                    <tr>
+                        <td class="tg-031e">$(a+c)+c=a+(b+c)$</td>
+                        <td class="tg-031e">Yhteenlaskun liitännäisyys</td>
+                    </tr>
+                    <tr>
+                        <td class='tg-031e'>$a + 0 = a$</td>
+                        <td class='tg-031e'>Nolla-alkio (yhteenlaskun neutraalilalkio)</td>
+                    </tr>
+                    <tr>
+                        <td class='tg-031e'>$a + a' = 0,$ merkitään $a' = -a$</td>
+                        <td class='tg-031e'>Vastaluku</td>
+                    </tr>
+                    <tr>
+                        <td class='tg-031e'>$ a \cdot b = b \cdot a$</td>
+                        <td class='tg-031e'>Kertolaskun vaihdannaisuus</td>
+                    </tr>
+                    <tr>
+                        <td class='tg-031e'>$ (a \cdot b) \cdot c = a \cdot (b \cdot c)$</td>
+                        <td class='tg-031e'>Kertolaskun liitännäisyys</td>
+                    </tr>
+                    <tr>
+                        <td class='tg-031e'>$ a \cdot 1 = a$</td>
+                        <td class='tg-031e'>Ykkösalkio (kertolaskun neutraalialkio)</td>
+                    </tr>
+                    <tr>
+                        <td class='tg-031e'>$ a \cdot a' = 1,$ merkitään $a' = a^{-1} = \frac{1}{a}$</td>
+                        <td class='tg-031e'>Käänteisluku</td>
+                    </tr>
+                    <tr>
+                        <td class='tg-031e'>$ a \cdot (b + c) = a \cdot b + a \cdot c$</td>
+                        <td class='tg-031e'>Osittelulaki</td>
+                    </tr>
+                </table>
+            <h3>Järjestysrelaation ominaisuudet</h3>
+                <table class="tg"> 
+                    <tr>
+                        <td class="tg-031e">$a\leq a$</td>
+                        <td class="tg-031e">Refleksiivisyys</td>
+                    </tr>
+                    <tr>
+                        <td class="tg-031e">Jos $a\leq b$ ja $ b \leq a$, niin $a = b$.</td>
+                        <td class="tg-031e">Antisymmetrisyys</td>
+                    </tr>
+                    <tr>
+                        <td class="tg-031e">Jos $a\leq b$ ja $ b \leq c$, niin $ a \leq c$.</td>
+                        <td class="tg-031e">Transitiivisuus.</td>
+                    </tr>
+                    <tr>
+                        <td class="tg-031e">$a\leq b$ tai $ b \leq a$.</td>
+                        <td class="tg-031e">Totaalisuus.</td>
+                    </tr>
+                </table>
+            <h3>Järjestysrelaation ja kunnan yhteensopivuus</h3>
+                <table class="tg">
+                    <tr>
+                        <td class="tg-031e">Jos $a\leq b$, niin $ a + c \leq b + c$.</td>
+                        <td class="tg-031e">Järjestyksen säilyminen yhteenlaskussa.</td>
+                    </tr>
+                    <tr>
+                        <td class="tg-031e">Jos $0\leq a$ ja $0 \leq b$, niin $ 0 \leq a\cdot b$.</td>
+                        <td class="tg-031e">Ei-negatiivisuuden säilyminen kertolaskussa.</td>
+                    </tr>
+                </table>
+            <h3>Täydellisyysominaisuus</h3>
+
+            Jos joukon $\mathbb{R}$ epätyhjällä osajoukolla $A$ on yläraja, osajoukolla $A$ on pienin yläraja.
+        </section>
+        <h2>Yleist perus juttuu $$:)$$</h2>
+        <section>
+            <h3>Laskutoimituksia</h3>
+            <div class="kaksPalstaa">
+
+                $$\frac{a}{b} = \frac{ka}{kb}, a \neq 0$$
+                $$\frac{a}{b} \pm \frac{c}{d} = \frac{ad \pm bc}{db}$$
+                $$\frac{a}{b} \cdot \frac{c}{d} = \frac{ac}{db}$$
+                $$\frac{a}{b} \mathbin{/} \frac{c}{d} = \frac{ad}{cd}$$
+
+            </div> 
+        </section>
+
+
+        <!---PÄÄ DOKUMENTTIIN KOPIOITAVA OSA LOPPUU -->
+
+
+    </body>
 </html>
