@@ -66,7 +66,7 @@ reaalilukujen aksioomat [~~DONE SIIVONEN~~ Nämä on vasta kuntaominaisuudet. Re
         - Diofantos
     * Rationaaliluvut
     * Reaaliluvut [DONE aksioomat-pätkässä?]
-    * Kompleksiluvut
+    * Kompleksiluvut [MUOKKAAN -Aaro]
     * Itseisarvot, epäyhtälöt
     * Potenssit, juuret 
     * Eksponenttifunktio ja logaritmi
