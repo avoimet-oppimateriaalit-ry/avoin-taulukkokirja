@@ -2,6 +2,7 @@ ALKU.html
 MerkintojaJaSymboleja.html
 Lajittelematon.html
 aksioomat.html
+kompleksiluvut.html
 EuklideenGeometria.html
 matematiikka_trigonometria.html
 Funktiot.html

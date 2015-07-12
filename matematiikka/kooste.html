@@ -728,6 +728,85 @@ MathJax.Hub.Config({
 
         <!---PÄÄ DOKUMENTTIIN KOPIOITAVA OSA LOPPUU -->
     <!---PÄÄ DOKUMENTTIIN KOPIOITAVA OSA ALKAA -->
+    <h2>Kompleksiluvut</h2>
+    <section>
+        <header>
+            <h3>Kompleksiluvun määritelmä</h3>
+        </header>
+        Kompleksilukujen joukko $\mathbb{C}$ eli <i>kompleksitaso</i> ovat kunta, jonka alkioille $$z = x + yi = (x, y) \in \mathbb{R}^2$$ on määritelty
+        <ul>
+            <li>yhteenlasku $ (a, b) + (c, d) = (a + c, b + d)$</li>
+            <li>kertolasku $(a, b)(c, d) = (ac - bd, bc + ad)$.</li>
+        </ul>
+        Kompleksilukua $z \in \mathbb{C}$ merkitään tavallisesti $z = x + yi$, jolloin
+        <ul>
+            <li>$(a + bi) + (c + di)  = a + c  + (b + d )i$</li>
+            <li>$(a + bi) (c + di) = (ac - bd) + (bc + ad)i $.</li>
+        </ul>
+
+        <h3>Muita määritelmiä</h3>
+        <table class="tg">
+            <tr>
+                <td class="tg-031e">Vaihtoehtoisia merkintöjä kompleksiluvulle $z$:</td>
+                <td class="tg-031e">$ x + y, \quad ix + iy, \quad x + y\textrm{i},\quad x + yj$</td>
+            </tr>
+            <tr>
+                <td class="tg-031e">Kompleksiluvun reaaliosa</td>
+                <td class="tg-031e">$\operatorname{Re}(z) = \Re(z) = x$</td>
+            </tr>
+            <tr>
+                <td class="tg-031e">Imaginääriosa</td>
+                <td class="tg-031e">$\operatorname{Im}(z) = \Im(z) = y$</td>
+            </tr>
+            <tr>
+                <td class="tg-031e">Iteisarvo eli moduli (myös magnitudi)</td>
+                <td class="tg-031e">$r = |z| = |x+ yi| = \sqrt{x^2 + y^2}$</td>
+            </tr>
+            <tr>
+                <td class="tg-031e">Vaihekulma eli argumentti</td>
+                <td class="tg-031e">$\phi = \operatorname{arg}(z); \quad \tan \phi = \frac{y}{x}, a  \not = 0$</td>
+            </tr>
+            <tr>
+                <td class="tg-031e">Liittoluku eli kompleksikonjugaatti</td>
+                <td class="tg-031e">$z^\ast = \overline{z} = \overline{x + yi} = x - yi$</td>
+            </tr>
+        </table>
+
+        <h3>Kompleksiluvun napaesitys</h3>
+
+        $$z = x + yi = |z| e^{i\phi}  = |z| (\cos \phi + i \sin \phi) $$
+
+        Tunnetaan muodossa $ e^{i\phi} = \cos \phi  + i \sin \phi$ myös
+        <i>Eulerin kaavana</i> tai <i>Eulerin lauseena (kompleksiluvuille).</i>
+
+        <h3>Ominaisuuksia ja laskutoimituksia</h3>
+        <table class="tg">
+            <tr>
+                <td class="tg-031e">Ykkösen neliöjuuri</td>
+                <td class="tg-031e">$i^2 = -1; \quad i = \sqrt{-1}$</td>
+            </tr>
+            <tr>
+                <td class="tg-031e">Jakolasku</td>
+                <td class="tg-031e">$\frac{a + bi}{c + di} = \frac{ac + bd}{c^2 + d^2} + \frac{bc - ad}{c^2 + d^2} i$</td>
+            </tr>
+            <tr>
+                <td class="tg-031e">Itseisarvon neliö</td>
+                <td class="tg-031e">$|z|^2 = x^2 + y^2 = (x + yi)(x - yi) = z\overline{z}$</td>
+            </tr>
+            <tr>
+                <td class="tg-031e">Liittoluvun liittoluku</td>
+                <td class="tg-031e">$(z^\ast)^\ast = \overline{\overline{z}} = z$</td>
+            </tr>
+            <tr>
+                <td class="tg-031e">Kokonaislukupotenssi (De Moivren kaava)</td>
+                <td class="tg-031e">$(z^n) = (r(\cos \phi + i \sin \phi))^n = r^n(\cos n\phi + i \sin n\phi)$</td>
+            </tr>
+        </table>
+
+    </section>
+
+    <!---PÄÄ DOKUMENTTIIN KOPIOITAVA OSA LOPPUU -->
+    <!---PÄÄ DOKUMENTTIIN KOPIOITAVA OSA ALKAA -->
     
     <h2>Euklideen geometria</h2>
     <section>
@@ -751,14 +830,6 @@ MathJax.Hub.Config({
     
     <!---PÄÄ DOKUMENTTIIN KOPIOITAVA OSA LOPPUU -->
 <!---PÄÄ DOKUMENTTIIN KOPIOITAVA OSA ALKAA -->
-<h2>Kompleksiluvut</h2>
-<section>
-<header>
-<h3>Määritelmä</h3>
-</header>
-$$z=a+bi, (a,b)\in \mathbb{R}^2, i^2=-1$$
-</section>
-
 <h1>Trigometria</h1>
  <section>
  <h2>Suorakulmaisen kolmion trigonometriaa</h2>
@@ -977,7 +1048,7 @@ $$\mathrm{d}f(x)=f'(x)\mathrm{d}x$$
 $$\lim_{\Delta x \to 0} \Delta x \to \mathrm{d}x$$
 <h2>Derivaatan merkitsemistapoja</h2>
 $$f'(x)=\mathrm{D}f(x)=\frac{\mathrm{d}f}{\mathrm{d}x}$$
-$$f'(x_0)=\mathrm{D}f(x)\bigg|_{x=x_0}=\frac{\mathrm{d}f}{\mathrm{d}x}\bigg|_{x=x_0}$$ <!-- eriksen derivaattafunktio? -->
+$$f'(x_0)=\mathrm{D}f(x)\bigg|_{x=x_0}=\frac{\mathrm{d}f}{\mathrm{d}x}\bigg|_{x=x_0}$$ <!-- erikseen derivaattafunktio? -->
 
 <h2>Derivaatan laskusääntöjä </h2>
 $$\mathrm{D}k\cdot f(x)=k\mathrm{D}f(x)$$
@@ -990,9 +1061,10 @@ $$\mathrm{D}\left( \frac{f(x)}{g(x)} \right)=\frac{f'(x)g(x)-f(x)g'(x)}{g(x)^2}$
 <h1>Integraalilaskenta</h1>
 <section>
 
-<h2>Integraalin määritelmä</h2>
+<h2>Riemann-integraalin määritelmä (määrätty integraali)</h2>
 
 <h2>Analyysin peruslause</h2>
+$$[tähän peruslause]$$
 </section>
 
 <!---PÄÄ DOKUMENTTIIN KOPIOITAVA OSA LOPPUU -->
