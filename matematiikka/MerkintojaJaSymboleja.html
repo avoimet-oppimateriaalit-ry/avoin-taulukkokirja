@@ -1,462 +1,463 @@
-<!DOCTYPE html><html lang="en"> <head> <title>Avoin taulukkokirja | Matematiikka</title> <meta charset="utf-8"/> <script type="text/javascript"> WebFontConfig = { google: { families: [ 'Open+Sans:300:latin' ] } }; (function() { var wf = document.createElement('script'); wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js'; wf.type = 'text/javascript'; wf.async = 'true'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wf, s); })(); </script> <style> body { font-family: 'Open Sans', sans-serif; font-size:14px; max-width:70em; margin:auto; } h1 { margin: 1.5em 0.5em 0.5em 0.5em; border-top:0.5em solid black; } h2 { margin-left:0em; margin-top:0.5em; } h3 { text-align:center; margin-bottom:0em; } div { display:block; vertical-align: top; margin:14px; } section div { display:inline-block; vertical-align: top; margin-left:1.8em; } section { border:2px solid #598CE9; margin:1em 1em 1em 0.5em; padding:0.5em; border-radius:0.5em; width:67.7em; } #otsikko { font-size:5em; font-weight:bold; color:#598CE9; } #osio { font-size:3em; font-weight:bold; color:#598CE9; } .tg {border-collapse:collapse;border-spacing:0;} .tg td{padding:5px 10px;border-style:solid;border-width:0px;overflow:visible;word-break:normal;white-space:nowrap;vertical-align: top;} .tg th{font-weight:bold;padding:5px 10px;border-bottom:2px solid black;overflow:hidden;word-break:normal;vertical-align: bottom;text-align:left;} white-space: nowrap; .tg .tg-a1rn{border-right:1px solid black;} .tg .tg-5y5n{border-left:1px solid black;white-space:normal;} .tg .tg-hv79{border-right:1px solid black;border-top:1px solid black;} .tg .tg-walu{border-top:1px solid black;} .tg .tg-19vt{border-right:1px solid black;border-top:1px solid black;} .tg .tg-bdps{border-top:1px solid black;} .tg .tg-34pk{border-right:1px solid black;border-top:1px solid black;} .tg .tg-b13j{border-top:1px solid black;} .tg .tg-mn6f{border-right:1px solid black;border-top:1px solid black;} .tg .tg-38zm{border-top:1px solid black;} .tg .tg-33yv{border-right:1px solid black;border-top:1px solid black;} .tg .tg-t04w{border-top:1px solid black;} .tg .tg-13j4{border-right:1px solid black;border-top:1px solid black;} .tg .tg-osmx{border-top:1px solid black;} .tg .tg-tk17{border-right:1px solid black;border-top:1px solid black;} .tg .tg-wc4u{border-top:1px solid black;} table {margin-bottom:3em;} .viiva {border-top:1px solid black;} </style> <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> MathJax.Hub.Config({ jax: ["input/TeX","output/HTML-CSS"], displayAlign: "center" }); </script> </head><body>
-    
-    
+<!DOCTYPE html><html lang="en"> <head> <title>Avoin taulukkokirja | Matematiikka</title> <meta charset="utf-8"/> <script type="text/javascript"> WebFontConfig = { google: { families: [ 'Open+Sans:300:latin' ] } }; (function() { var wf = document.createElement('script'); wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js'; wf.type = 'text/javascript'; wf.async = 'true'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wf, s); })(); </script> <link rel="stylesheet" type="text/css" href="../tyyli.css"> <script type="text/x-mathjax-config">MathJax.Hub.Config({  tex2jax: {   inlineMath: [['$','$'], ['\\(','\\)']],    processEscapes: true  } });</script><script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> MathJax.Hub.Config({ jax: ["input/TeX","output/HTML-CSS"], displayAlign: "center" }); </script> </head><body>
+
+
     <!---PÄÄ DOKUMENTTIIN KOPIOITAVA OSA ALKAA -->
     
-<h2>Merkintöjä Ja Symboleja</h2>
-<section>
-<h3>Kreikkalaiset aakkoset </h3>
-<div class="viisPalstaa">
-<table class="tg" id="kreikkalaiset">
-  <tr>
-    <td class="tg-031e">$$ \alpha, A $$</td>
-    <td class="tg-031e">Alfa</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$\beta, B$$</td>
-    <td class="tg-031e">Beeta</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$\gamma, \Gamma$$</td>
-    <td class="tg-031e">Gamma</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$\delta, \Delta$$</td>
-    <td class="tg-031e">Delta</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$ \epsilon,\varepsilon, E$$</td>
-    <td class="tg-031e">Epsilon</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$\zeta, Z$$</td>
-    <td class="tg-031e">Zeeta</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$\eta, H$$</td>
-    <td class="tg-031e">Eeta</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$\theta, \vartheta, \Theta$$</td>
-    <td class="tg-031e">Theeta</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$\iota, I$$</td>
-    <td class="tg-031e">Ioota</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$\kappa, K$$</td>
-    <td class="tg-031e">Kappa</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$\lambda, \Lambda$$</td>
-    <td class="tg-031e">Lambda</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$\mu, M$$</td>
-    <td class="tg-031e">Myy</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$\nu, N$$</td>
-    <td class="tg-031e">Nyy</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$\xi, \Xi$$</td>
-    <td class="tg-031e">Ksii</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$o, O$$</td>
-    <td class="tg-031e">Omikron</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$\pi, \Pi$$</td>
-    <td class="tg-031e">Pii</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$\rho, \varrho, P$$</td>
-    <td class="tg-031e">Roo</td>
-  </tr> 
-  <tr>
-    <td class="tg-031e">$$\sigma, \Sigma$$</td>
-    <td class="tg-031e">Sigma</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$\tau, T$$</td>
-    <td class="tg-031e">Tau</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$\upsilon, \Upsilon$$</td>
-    <td class="tg-031e">Ypsilon</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$\phi, \varphi, \Phi$$</td>
-    <td class="tg-031e">Fii</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$\chi, X$$</td>
-    <td class="tg-031e">Khii</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$\psi, \Psi$$</td>
-    <td class="tg-031e">Psii</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$\omega, \Omega$$</td>
-    <td class="tg-031e">Omega</td>
-  </tr>
-</table>
-</div>
-<h3>Symboleja</h3>
+    <h2>Merkintöjä Ja Symboleja</h2>
+    <section>
+    <h3>Kreikkalaiset aakkoset </h3>
+    <div class="viisPalstaa">
+    <table class="tg" id="kreikkalaiset">
+      <tr>
+        <td class="tg-031e">$$ \alpha, A $$</td>
+        <td class="tg-031e">Alfa</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$\beta, B$$</td>
+        <td class="tg-031e">Beeta</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$\gamma, \Gamma$$</td>
+        <td class="tg-031e">Gamma</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$\delta, \Delta$$</td>
+        <td class="tg-031e">Delta</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$ \epsilon,\varepsilon, E$$</td>
+        <td class="tg-031e">Epsilon</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$\zeta, Z$$</td>
+        <td class="tg-031e">Zeeta</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$\eta, H$$</td>
+        <td class="tg-031e">Eeta</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$\theta, \vartheta, \Theta$$</td>
+        <td class="tg-031e">Theeta</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$\iota, I$$</td>
+        <td class="tg-031e">Ioota</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$\kappa, K$$</td>
+        <td class="tg-031e">Kappa</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$\lambda, \Lambda$$</td>
+        <td class="tg-031e">Lambda</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$\mu, M$$</td>
+        <td class="tg-031e">Myy</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$\nu, N$$</td>
+        <td class="tg-031e">Nyy</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$\xi, \Xi$$</td>
+        <td class="tg-031e">Ksii</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$o, O$$</td>
+        <td class="tg-031e">Omikron</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$\pi, \Pi$$</td>
+        <td class="tg-031e">Pii</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$\rho, \varrho, P$$</td>
+        <td class="tg-031e">Roo</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$\sigma, \Sigma$$</td>
+        <td class="tg-031e">Sigma</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$\tau, T$$</td>
+        <td class="tg-031e">Tau</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$\upsilon, \Upsilon$$</td>
+        <td class="tg-031e">Ypsilon</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$\phi, \varphi, \Phi$$</td>
+        <td class="tg-031e">Fii</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$\chi, X$$</td>
+        <td class="tg-031e">Khii</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$\psi, \Psi$$</td>
+        <td class="tg-031e">Psii</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$\omega, \Omega$$</td>
+        <td class="tg-031e">Omega</td>
+      </tr>
+    </table>
+    </div>
+    <h3>Symboleja</h3>
 
-<div class="kaksPalstaa">
-<table class="tg">
-  <tr>
-    <td class="tg-031e">$$=$$</td>
-    <td class="tg-031e">on yhtä suuri kuin</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$\neq, (!=, <>)$$</td>
-    <td class="tg-031e">ei ole yhtä suuri kuin</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$<,>$$</td>
-    <td class="tg-031e">on suurempi kuin,<br>on pienempi kuin</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$\leq,\neq$$</td>
-    <td class="tg-031e">on suurempi tai yhtä suuri kuin,<br>on pienempi tai yhtä suuri kuin</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$\varpropto$$</td>
-    <td class="tg-031e">on verrannollinen</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$+$$</td>
-    <td class="tg-031e">yhteenlasku</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$-$$</td>
-    <td class="tg-031e">vähennyslasku</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$\cdot$$</td>
-    <td class="tg-031e">kertolasku, pistetulo</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$\times$$</td>
-    <td class="tg-031e">kertolasku, ristitulo</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$\div, /, \frac{}{}$$</td>
-    <td class="tg-031e">jakolasku</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$\pm$$</td>
-    <td class="tg-031e">plus-miinus</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$\mp$$</td>
-    <td class="tg-031e">miinus-plus</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$\sqrt{}$$</td>
-    <td class="tg-031e">neliöjuuri</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$|...|$$</td>
-    <td class="tg-031e">itseisarvo, etäisyys</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$$!$$</td>
-    <td class="tg-031e">kertoma</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">$${,}$$</td>
-    <td class="tg-031e">joukko</td>
-  </tr>
-</table>
-</div>
+    <div class="kaksPalstaa">
+    <table class="tg">
+      <tr>
+        <td class="tg-031e">$$=$$</td>
+        <td class="tg-031e">on yhtä suuri kuin</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$\neq, (!=, <>)$$</td>
+        <td class="tg-031e">ei ole yhtä suuri kuin</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$<,>$$</td>
+        <td class="tg-031e">on suurempi kuin,<br>on pienempi kuin</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$\leq,\neq$$</td>
+        <td class="tg-031e">on suurempi tai yhtä suuri kuin,<br>on pienempi tai yhtä suuri kuin</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$\varpropto$$</td>
+        <td class="tg-031e">on verrannollinen</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$+$$</td>
+        <td class="tg-031e">yhteenlasku</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$-$$</td>
+        <td class="tg-031e">vähennyslasku</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$\cdot$$</td>
+        <td class="tg-031e">kertolasku, pistetulo</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$\times$$</td>
+        <td class="tg-031e">kertolasku, ristitulo</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$\div, /, \frac{}{}$$</td>
+        <td class="tg-031e">jakolasku</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$\pm$$</td>
+        <td class="tg-031e">plus-miinus</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$\mp$$</td>
+        <td class="tg-031e">miinus-plus</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$\sqrt{}$$</td>
+        <td class="tg-031e">neliöjuuri</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$|...|$$</td>
+        <td class="tg-031e">itseisarvo, etäisyys</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$$!$$</td>
+        <td class="tg-031e">kertoma</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">$${,}$$</td>
+        <td class="tg-031e">joukko</td>
+      </tr>
+    </table>
+    </div>
 
-<h3>Numeromerkit</h3>
-        <table class="tg">
-  <tr>
-    <th class="tg-031e">Arabialaiset</th>
-    <th class="tg-031e">Armenialaiset</th>
-    <th class="tg-031e">Babylonialaiset</th>
-    <th class="tg-031e">Heprealaiset</th>
-    <th class="tg-031e">Kiinalaiset</th>
-    <th class="tg-031e">Kreikkalaiset</th>
-    <th class="tg-031e">Roomalaiset</th>
-  </tr>
-  <tr>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e"></td>
-    <td class="tg-031e"></td>
-    <td class="tg-031e"></td>
-    <td class="tg-031e">零</td>
-    <td class="tg-031e"></td>
-    <td class="tg-031e"></td>
-  </tr>
-  <tr>
-    <td class="tg-031e">1</td>
-    <td class="tg-031e">Ա</td>
-    <td class="tg-031e"></td>
-    <td class="tg-031e">א</td>
-    <td class="tg-031e">壹</td>
-    <td class="tg-031e">α´</td>
-    <td class="tg-031e">I</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">2</td>
-    <td class="tg-031e">Բ</td>
-    <td class="tg-031e"></td>
-    <td class="tg-031e">ב</td>
-    <td class="tg-031e">贰</td>
-    <td class="tg-031e">β´</td>
-    <td class="tg-031e">II</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">3</td>
-    <td class="tg-031e">Գ</td>
-    <td class="tg-031e"></td>
-    <td class="tg-031e">ג</td>
-    <td class="tg-031e">叁</td>
-    <td class="tg-031e">γ´</td>
-    <td class="tg-031e">III</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">4</td>
-    <td class="tg-031e">Դ</td>
-    <td class="tg-031e"></td>
-    <td class="tg-031e">ד</td>
-    <td class="tg-031e">肆</td>
-    <td class="tg-031e">δ´</td>
-    <td class="tg-031e">IV</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">5</td>
-    <td class="tg-031e">Ե</td>
-    <td class="tg-031e"></td>
-    <td class="tg-031e">ה</td>
-    <td class="tg-031e">伍</td>
-    <td class="tg-031e">ε´</td>
-    <td class="tg-031e">V</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">6</td>
-    <td class="tg-031e">Զ</td>
-    <td class="tg-031e"></td>
-    <td class="tg-031e">ו</td>
-    <td class="tg-031e">陆</td>
-    <td class="tg-031e">στ´</td>
-    <td class="tg-031e">VI</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">7</td>
-    <td class="tg-031e">Է</td>
-    <td class="tg-031e"></td>
-    <td class="tg-031e">ז</td>
-    <td class="tg-031e">柒</td>
-    <td class="tg-031e">ζ´</td>
-    <td class="tg-031e">VII</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">8</td>
-    <td class="tg-031e">Ը</td>
-    <td class="tg-031e"></td>
-    <td class="tg-031e">ח</td>
-    <td class="tg-031e">捌</td>
-    <td class="tg-031e">η´</td>
-    <td class="tg-031e">VIII</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">9</td>
-    <td class="tg-031e">Թ</td>
-    <td class="tg-031e"></td>
-    <td class="tg-031e">ט</td>
-    <td class="tg-031e">玖</td>
-    <td class="tg-031e">θ´</td>
-    <td class="tg-031e">IX</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">10</td>
-    <td class="tg-031e">Ժ</td>
-    <td class="tg-031e"></td>
-    <td class="tg-031e">י</td>
-    <td class="tg-031e">拾</td>
-    <td class="tg-031e">ι´</td>
-    <td class="tg-031e">X</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">50</td>
-    <td class="tg-031e">Ծ</td>
-    <td class="tg-031e"></td>
-    <td class="tg-031e">נ</td>
-    <td class="tg-031e">伍拾</td>
-    <td class="tg-031e">ν´</td>
-    <td class="tg-031e">L</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">100</td>
-    <td class="tg-031e">Ճ</td>
-    <td class="tg-031e"></td>
-    <td class="tg-031e">ק</td>
-    <td class="tg-031e">佰</td>
-    <td class="tg-031e">ρ´</td>
-    <td class="tg-031e">C</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">500</td>
-    <td class="tg-031e">Շ</td>
-    <td class="tg-031e"></td>
-    <td class="tg-031e">ך</td>
-    <td class="tg-031e"></td>
-    <td class="tg-031e">φ´</td>
-    <td class="tg-031e"></td>
-  </tr>
-</table>
+    <h3>Numeromerkit</h3>
+            <table class="tg">
+      <tr>
+        <th class="tg-031e">Arabialaiset</th>
+        <th class="tg-031e">Armenialaiset</th>
+        <th class="tg-031e">Babylonialaiset</th>
+        <th class="tg-031e">Heprealaiset</th>
+        <th class="tg-031e">Kiinalaiset</th>
+        <th class="tg-031e">Kreikkalaiset</th>
+        <th class="tg-031e">Roomalaiset</th>
+      </tr>
+      <tr>
+        <td class="tg-031e">0</td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e">零</td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+      </tr>
+      <tr>
+        <td class="tg-031e">1</td>
+        <td class="tg-031e">Ա</td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e">א</td>
+        <td class="tg-031e">壹</td>
+        <td class="tg-031e">α´</td>
+        <td class="tg-031e">I</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">2</td>
+        <td class="tg-031e">Բ</td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e">ב</td>
+        <td class="tg-031e">贰</td>
+        <td class="tg-031e">β´</td>
+        <td class="tg-031e">II</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">3</td>
+        <td class="tg-031e">Գ</td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e">ג</td>
+        <td class="tg-031e">叁</td>
+        <td class="tg-031e">γ´</td>
+        <td class="tg-031e">III</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">4</td>
+        <td class="tg-031e">Դ</td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e">ד</td>
+        <td class="tg-031e">肆</td>
+        <td class="tg-031e">δ´</td>
+        <td class="tg-031e">IV</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">5</td>
+        <td class="tg-031e">Ե</td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e">ה</td>
+        <td class="tg-031e">伍</td>
+        <td class="tg-031e">ε´</td>
+        <td class="tg-031e">V</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">6</td>
+        <td class="tg-031e">Զ</td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e">ו</td>
+        <td class="tg-031e">陆</td>
+        <td class="tg-031e">στ´</td>
+        <td class="tg-031e">VI</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">7</td>
+        <td class="tg-031e">Է</td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e">ז</td>
+        <td class="tg-031e">柒</td>
+        <td class="tg-031e">ζ´</td>
+        <td class="tg-031e">VII</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">8</td>
+        <td class="tg-031e">Ը</td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e">ח</td>
+        <td class="tg-031e">捌</td>
+        <td class="tg-031e">η´</td>
+        <td class="tg-031e">VIII</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">9</td>
+        <td class="tg-031e">Թ</td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e">ט</td>
+        <td class="tg-031e">玖</td>
+        <td class="tg-031e">θ´</td>
+        <td class="tg-031e">IX</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">10</td>
+        <td class="tg-031e">Ժ</td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e">י</td>
+        <td class="tg-031e">拾</td>
+        <td class="tg-031e">ι´</td>
+        <td class="tg-031e">X</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">50</td>
+        <td class="tg-031e">Ծ</td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e">נ</td>
+        <td class="tg-031e">伍拾</td>
+        <td class="tg-031e">ν´</td>
+        <td class="tg-031e">L</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">100</td>
+        <td class="tg-031e">Ճ</td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e">ק</td>
+        <td class="tg-031e">佰</td>
+        <td class="tg-031e">ρ´</td>
+        <td class="tg-031e">C</td>
+      </tr>
+      <tr>
+        <td class="tg-031e">500</td>
+        <td class="tg-031e">Շ</td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e">ך</td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e">φ´</td>
+        <td class="tg-031e"></td>
+      </tr>
+    </table>
 
-<h3>Lukujoukot</h3>
+    <h3>Lukujoukot</h3>
 
-<div class="kaksPalstaa">
-<table class="tg"> 
-   <tr>
-    <td class="tg-031e">$$\mathbb{N}$$</td>
-    <td class="tg-031e">Luonnollisten lukujen joukko</td>
-  </tr>
-  
-  <tr>
-    <td class="tg-031e">$$\mathbb{Z}$$</td>
-    <td class="tg-031e">Kokonaislukujen joukko</td>
-  </tr>
-  
-     <tr>
-    <td class="tg-031e">$$\mathbb{Q}$$</td>
-    <td class="tg-031e">Rationaalilukujen joukko</td>
-  </tr>
-  
-     <tr>
-    <td class="tg-031e">$$\bar{\mathbb{Q}}, \mathbb{R} - \mathbb{Q}, \mathbb{R} \setminus \mathbb{Q}$$</td>
-    <td class="tg-031e">Irrationaalilukujen joukko</td>
-  </tr>
-  
-     <tr>
-    <td class="tg-031e">$$\mathbb{R}$$</td>
-    <td class="tg-031e">Reaalilukujen joukko</td>
-  </tr>
-  
-     <tr>
-    <td class="tg-031e">$$\mathbb{C}$$</td>
-    <td class="tg-031e">Kompleksilukujen joukko</td>
-  </tr>
+    <div class="kaksPalstaa">
+    <table class="tg">
+       <tr>
+        <td class="tg-031e">$$\mathbb{N}$$</td>
+        <td class="tg-031e">Luonnollisten lukujen joukko</td>
+      </tr>
 
-</table>
-</div> 
-<h3>Kantalukujärjestelmät</h3>
-<table class="tg">
-    <tr>
-        <th>Desimaali</th>
-        <th>Binaari</th>
-        <th>Oktaali</th>
-        <th>Heksadesimaali</th>
-    </tr>
-     <tr>
-        <td>$$0$$</td>
-        <td>$$0$$</td>
-        <td>$$0$$</td>
-        <td>$$0$$</td>
-    </tr>
-    <tr>
-        <td>$$1$$</td>
-        <td>$$1$$</td>
-        <td>$$1$$</td>
-        <td>$$1$$</td>
-    </tr>
-    <tr>
-        <td>$$2$$</td>
-        <td>$$10$$</td>
-        <td>$$2$$</td>
-        <td>$$2$$</td>
-    </tr>
-    <tr>
-        <td>$$3$$</td>
-        <td>$$11$$</td>
-        <td>$$3$$</td>
-        <td>$$3$$</td>
-    </tr>
-    <tr>
-        <td>$$4$$</td>
-        <td>$$100$$</td>
-        <td>$$4$$</td>
-        <td>$$4$$</td>
-    </tr>
-    <tr>
-        <td>$$5$$</td>
-        <td>$$101$$</td>
-        <td>$$5$$</td>
-        <td>$$5$$</td>
-    </tr>
-    <tr>
-        <td>$$6$$</td>
-        <td>$$110$$</td>
-        <td>$$6$$</td>
-        <td>$$6$$</td>
-    </tr>
-    <tr>
-        <td>$$7$$</td>
-        <td>$$111$$</td>
-        <td>$$7$$</td>
-        <td>$$7$$</td>
-    </tr>
-    <tr>
-        <td>$$8$$</td>
-        <td>$$1000$$</td>
-        <td>$$10$$</td>
-        <td>$$8$$</td>
-    </tr>
-    <tr>
-        <td>$$9$$</td>
-        <td>$$1001$$</td>
-        <td>$$11$$</td>
-        <td>$$9$$</td>
-    </tr>
-    <tr>
-        <td>$$10$$</td>
-        <td>$$1010$$</td>
-        <td>$$12$$</td>
-        <td>$$A$$</td>
-    </tr>
-    <tr>
-        <td>$$50$$</td>
-        <td>$$110010$$</td>
-        <td>$$62$$</td>
-        <td>$$32$$</td>
-    </tr>
-    <tr>
-        <td>$$100$$</td>
-        <td>$$1100100$$</td>
-        <td>$$144$$</td>
-        <td>$$64$$</td>
-    </tr>
-    <tr>
-        <td>$$1000$$</td>
-        <td>$$1111101000$$</td>
-        <td>$$1750$$</td>
-        <td>$$3E8$$</td>
-    </tr>
-    <tr>
-        <td>$$10000$$</td>
-        <td>$$10011100010000$$</td>
-        <td>$$23420$$</td>
-        <td>$$2710$$</td>
-    </tr>
-<!--- TODO lisää muita --->
+      <tr>
+        <td class="tg-031e">$$\mathbb{Z}$$</td>
+        <td class="tg-031e">Kokonaislukujen joukko</td>
+      </tr>
 
-</table>
- </section>
-    
+         <tr>
+        <td class="tg-031e">$$\mathbb{Q}$$</td>
+        <td class="tg-031e">Rationaalilukujen joukko</td>
+      </tr>
+
+         <tr>
+        <td class="tg-031e">$$\bar{\mathbb{Q}}, \mathbb{R} - \mathbb{Q}, \mathbb{R} \setminus \mathbb{Q}$$</td>
+        <td class="tg-031e">Irrationaalilukujen joukko</td>
+      </tr>
+
+         <tr>
+        <td class="tg-031e">$$\mathbb{R}$$</td>
+        <td class="tg-031e">Reaalilukujen joukko</td>
+      </tr>
+
+         <tr>
+        <td class="tg-031e">$$\mathbb{C}$$</td>
+        <td class="tg-031e">Kompleksilukujen joukko</td>
+      </tr>
+
+    </table>
+    </div>
+    <h3>Kantalukujärjestelmät</h3>
+    <table class="tg">
+        <tr>
+            <th>Desimaali</th>
+            <th>Binaari</th>
+            <th>Oktaali</th>
+            <th>Heksadesimaali</th>
+        </tr>
+         <tr>
+            <td>$$0$$</td>
+            <td>$$0$$</td>
+            <td>$$0$$</td>
+            <td>$$0$$</td>
+        </tr>
+        <tr>
+            <td>$$1$$</td>
+            <td>$$1$$</td>
+            <td>$$1$$</td>
+            <td>$$1$$</td>
+        </tr>
+        <tr>
+            <td>$$2$$</td>
+            <td>$$10$$</td>
+            <td>$$2$$</td>
+            <td>$$2$$</td>
+        </tr>
+        <tr>
+            <td>$$3$$</td>
+            <td>$$11$$</td>
+            <td>$$3$$</td>
+            <td>$$3$$</td>
+        </tr>
+        <tr>
+            <td>$$4$$</td>
+            <td>$$100$$</td>
+            <td>$$4$$</td>
+            <td>$$4$$</td>
+        </tr>
+        <tr>
+            <td>$$5$$</td>
+            <td>$$101$$</td>
+            <td>$$5$$</td>
+            <td>$$5$$</td>
+        </tr>
+        <tr>
+            <td>$$6$$</td>
+            <td>$$110$$</td>
+            <td>$$6$$</td>
+            <td>$$6$$</td>
+        </tr>
+        <tr>
+            <td>$$7$$</td>
+            <td>$$111$$</td>
+            <td>$$7$$</td>
+            <td>$$7$$</td>
+        </tr>
+        <tr>
+            <td>$$8$$</td>
+            <td>$$1000$$</td>
+            <td>$$10$$</td>
+            <td>$$8$$</td>
+        </tr>
+        <tr>
+            <td>$$9$$</td>
+            <td>$$1001$$</td>
+            <td>$$11$$</td>
+            <td>$$9$$</td>
+        </tr>
+        <tr>
+            <td>$$10$$</td>
+            <td>$$1010$$</td>
+            <td>$$12$$</td>
+            <td>$$A$$</td>
+        </tr>
+        <tr>
+            <td>$$50$$</td>
+            <td>$$110010$$</td>
+            <td>$$62$$</td>
+            <td>$$32$$</td>
+        </tr>
+        <tr>
+            <td>$$100$$</td>
+            <td>$$1100100$$</td>
+            <td>$$144$$</td>
+            <td>$$64$$</td>
+        </tr>
+        <tr>
+            <td>$$1000$$</td>
+            <td>$$1111101000$$</td>
+            <td>$$1750$$</td>
+            <td>$$3E8$$</td>
+        </tr>
+        <tr>
+            <td>$$10000$$</td>
+            <td>$$10011100010000$$</td>
+            <td>$$23420$$</td>
+            <td>$$2710$$</td>
+        </tr>
+    <!--- TODO lisää muita --->
+
+    </table>
+     </section>
+
+
     <!---PÄÄ DOKUMENTTIIN KOPIOITAVA OSA LOPPUU -->
-    
-    
+
+
 </body>
 </html>

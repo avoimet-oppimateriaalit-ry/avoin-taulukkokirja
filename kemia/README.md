@@ -26,7 +26,7 @@
 
 
 ##KOOSTE
-- https://rawgit.com/avoimet-oppimateriaalit-ry/avoin-taulukkokirja/master/fysiikka/kooste.html _KOOSTE_
+- https://rawgit.com/avoimet-oppimateriaalit-ry/avoin-taulukkokirja/master/kemia/kooste.html _KOOSTE_
 
 
 
