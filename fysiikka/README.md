@@ -22,7 +22,8 @@
    - ongelmatilanteissa tarkistus, että nämä tagit löytyvät KOOSTEJARJESTYS.txt-tiedostossa olevista tiedostoista
 
 
-## LINKIT ERI TIEDOSTOIHIN
+## LINKIT ERI TIEDOSTOIHIN 
+- https://rawgit.com/avoimet-oppimateriaalit-ry/avoin-taulukkokirja/master/fysiikka/.html __
 
 
 ##KOOSTE

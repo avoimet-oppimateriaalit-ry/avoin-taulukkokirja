@@ -1,2 +1,4 @@
 ALKU.html
+AineidenOminaisuuksia.html
+Kaavoja.html
 LOPPU.html
