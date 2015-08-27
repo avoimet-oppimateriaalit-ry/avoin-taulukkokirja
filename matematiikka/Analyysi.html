@@ -25,17 +25,17 @@
 
     <h2>Eräitä raja-arvoja</h2>
     $$\lim_{n \to ∞} {\sqrt[n]{n}}=1$$
-    $$\lim_{n \to ∞}{\left( 1+\frac{1}{n} \right)^n }=e\approx 2,718282 "(Neperin luku)"$$
+    $$\lim_{n \to ∞}{\left( 1+\frac{1}{n} \right)^n }=e\approx 2,718282 \text{(Neperin luku)}$$
     $$\lim_{n \to ∞} {a^n \over {n!}}=0$$
     $$\lim_{x \to ∞} {\log x \over x^a}=0$$
     $$\lim_{x \to ∞} {x^a \over e^x}=0$$
     $$\lim_{x \to 0} {\sin(x) \over x}=1$$
 
-       $$\begin{matrix}
-       \lim_{n \to ∞} {\sqrt[n]{n}}=1 & \lim_{n \to ∞}{\left( 1+\frac{1}{n} \right)^n }=e\approx 2,718282 "(Neperin luku)" \\
+       $$\begin{tabular}{cc}
+       \lim_{n \to ∞} {\sqrt[n]{n}}=1 & \lim_{n \to ∞}{\left( 1+\frac{1}{n} \right)^n }=e\approx 2,718282 \text{(Neperin luku)} \\
        \lim_{n \to ∞} {a^n \over {n!}}=0 & \lim_{x \to ∞} {\log x \over x^a}=0 \\
         \lim_{x \to ∞} {x^a \over e^x}=0 & \lim_{x \to 0} {\sin(x) \over x}=1 \\
-    \end{matrix}
+    \end{tabular}
     $$
     </section>
 
@@ -69,8 +69,13 @@
 
     <h2>Derivoimiskaavoja </h2>
     $$
-    \mathrm{D}x^n=nx^{n-1} \\
-    \mathrm{D}f^n=nf^{n-1}\mathrm{D}f
+    \begin{tabular}{ccc}
+    \mathrm{D}x^n=nx^{n-1} & \mathrm{D}e^x=e^x & \mathrm{D} \arccos x = -1 \over \sqrt{1-x^2}
+    \mathrm{D}f^n=nf^{n-1}\mathrm{D}f & \mathrm{D}a^x = a^x \ln a (a>0) & \mathrm{D}\arctan x = 1 \over {1+x^2}
+    \mathrm{D}\sin x = \cos x & \mathrm{D} \ln |x|=1\over x
+    \mathrm{D}\cos x = \sin x & \mathrm{D} \log_a |x| =1\over {x \ln a} (a>0, a \neq 1)
+    \mathrm{D}\tan x = 1 \over {\cos^2 x} = 1+ \tan^2 x & \mathrm{D}\arcsin x = 1 \over \sqrt{1-x^2}
+    \end{tabular}
     $$
     </section>
 
