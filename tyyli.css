@@ -42,6 +42,16 @@ section {
     border-radius:0.5em;
     width:67.7em;
 }
+#left{
+float:left;
+width:50%;
+overflow:hidden;
+}
+#right{
+float:right;
+width:50%;
+overflow:hidden;
+} 
 #otsikko {
     font-size:5em;
     font-weight:bold;
@@ -51,7 +61,6 @@ section {
     font-size:3em;
     font-weight:bold;
     color:#598CE9;
-    float: left;
 }
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{padding:5px

@@ -20,7 +20,7 @@
     $$\array{
     \lim (k \cdot f(x))=k \lim f(x) &    \lim \left[ \frac{f(x)}{g(x)} \right] = \frac{\lim f(x)}{\lim g(x)} \\
     \lim [f(x) \pm g(x)]=\lim f(x) \pm \lim g(x) &     \lim [f(x)^n]=\left[ \lim f(x) \right]^n \\
-    \lim [f(x) \cdot g(x)] = \lim f(x) \cdot \lim g(x) &    \lim g(f(x))=g(\lim f(x))  <!-- g jatkuva --> \\
+    \lim [f(x) \cdot g(x)] = \lim f(x) \cdot \lim g(x) &    \lim g(f(x))=g(\lim f(x))  \\  <!-- g jatkuva -->
     }
     $$
 
@@ -90,7 +90,7 @@
     <h2>Integroimissääntöjä</h2>
 
     $$ \array{
-    \int kf(x) \mathrm{d}x=k \int f(x) \mathrm{d}x & \int f'(x)g(x) \mathrm{d}x = f(x)g(x) - \int f(x)g'(x) \mathrm{d}x \text{ osittaisintegrointi}\\
+    \int kf(x) \mathrm{d}x=k \int f(x) \mathrm{d}x & \int f'(x)g(x) \mathrm{d}x = f(x)g(x) - \int f(x)g'(x) \mathrm{d}x \text{ (osittaisintegrointi)}\\
     \int \left(f(x) \pm g(x) \right) \mathrm{d}x = \int f(x) \mathrm{d}x \pm \int g(x) \mathrm{d}x & \\
     }
     $$
@@ -103,15 +103,15 @@
     <h2>Integroimiskaavoja</h2>
 
     $$ \array{
-    \int 0\mathrm{d}x=C & \int e^x \mathrm{d}x = e^x + C\\
-    \int k\mathrm{d}x=x+C & \int a^x \mathrm{d}x = {a^x \over \ln a } + C \\
-    \int x^n \mathrm{d}x = {x^{n+1} \over n+1}+C (n \neq -1) &  \int \ln |x| \mathrm{d}x = x \ln |x| - x + C \\
-    \int \frac{1}{x} \mathrm{d}x = \ln |x| + C & \int \log_a |x| \mathrm{d}x = \log_a e(x \ln |x\ -x) +C \\
-    \int f'(x)f(x)^n \mathrm{d}x={f^{n+1} \over n+1}+C (n \neq -1) & \int {\mathrm{d}x \over 1+x^2} = \arctan x +C \\
+    \int 0\,\mathrm{d}x=C & \int e^x \,\mathrm{d}x = e^x + C\\
+    \int k\,\mathrm{d}x=x+C & \int a^x \,\mathrm{d}x = {a^x \over \ln a } + C \\
+    \int x^n \mathrm{d}x = {x^{n+1} \over n+1}+C \; (n \neq -1) &  \int \ln |x| \,\mathrm{d}x = x \ln |x| - x + C \\
+    \int \frac{1}{x} \mathrm{d}x = \ln |x| + C & \int \log_a |x| \,\mathrm{d}x = \log_a e(x \ln |x\ -x) +C \\
+    \int f'(x)f(x)^n \mathrm{d}x={f^{n+1} \over n+1}+C \;(n \neq -1) & \int {\mathrm{d}x \over 1+x^2} = \arctan x +C \\
     \int {f'(x) \over f(x) } \mathrm{d}x=\ln \left| f(x) \right| +C & \int {\mathrm{d}x \over \sqrt{1-x^2}} = \arcsin x + C \\
-    \int \sin x \mathrm{d}x = -\cos x + C & \int -{\mathrm{d}x \over \sqrt{1-x^2}} = \arccos x + C \\
-    \int \cos x \mathrm{d}x = \sin x + C &
-    \int \tan x \mathrm{d}x = -\ln \left| \cos x \right| + C &
+    \int \sin x \,\mathrm{d}x = -\cos x + C & \int -{\mathrm{d}x \over \sqrt{1-x^2}} = \arccos x + C \\
+    \int \cos x \,\mathrm{d}x = \sin x + C & \\
+    \int \tan x \,\mathrm{d}x = -\ln \left| \cos x \right| + C & \\
     }
     $$
 
