@@ -1,2 +1,3 @@
 ALKU.html
+Kaavoja.html
 LOPPU.html

@@ -19,7 +19,6 @@ h3 {
 div {
     display:block;
     vertical-align: top;
-
 }
 
 th {
@@ -42,6 +41,7 @@ section {
     border-radius:0.5em;
     width:67.7em;
 }
+
 #left{
 float:left;
 width:49%;
