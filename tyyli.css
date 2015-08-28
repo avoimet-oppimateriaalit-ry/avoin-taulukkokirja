@@ -21,6 +21,7 @@ div {
     vertical-align: top;
 
 }
+
 th {
     margin-left: auto;
     margin-right: auto;
@@ -50,6 +51,7 @@ section {
     font-size:3em;
     font-weight:bold;
     color:#598CE9;
+    float: left;
 }
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{padding:5px
