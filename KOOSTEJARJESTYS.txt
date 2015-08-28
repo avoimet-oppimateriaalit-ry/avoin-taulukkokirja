@@ -2,4 +2,4 @@ matematiikka/kooste.html
 fysiikka/kooste.html
 kemia/kooste.html
 biologia/kooste.html
-maantieto/kooste.html
+maantiede/kooste.html
