@@ -24,14 +24,8 @@
     $$\lim g(f(x))=g(\lim f(x)) $$ <!-- g jatkuva -->
 
     <h2>Eräitä raja-arvoja</h2>
-    $$\lim_{n \to \infty} {\sqrt[n]{n}}=1$$
-    $$\lim_{n \to \infty}{\left( 1+\frac{1}{n} \right)^n }=e\approx 2,718282 \text{(Neperin luku)}$$
-    $$\lim_{n \to \infty} {a^n \over {n!}}=0$$
-    $$\lim_{x \to \infty} {\log x \over x^a}=0$$
-    $$\lim_{x \to \infty} {x^a \over e^x}=0$$
-    $$\lim_{x \to 0} {\sin(x) \over x}=1$$
 
-       $$\\array{
+       $$\array{
        \lim_{n \to \infty} {\sqrt[n]{n}}=1 & \lim_{n \to ∞}{\left( 1+\frac{1}{n} \right)^n }=e\approx 2,718282 \text{(Neperin luku)} \\
        \lim_{n \to \infty} {a^n \over {n!}}=0 & \lim_{x \to ∞} {\log x \over x^a}=0 \\
         \lim_{x \to \infty} {x^a \over e^x}=0 & \lim_{x \to 0} {\sin(x) \over x}=1 \\
@@ -64,9 +58,9 @@
     <h2>Derivaatan laskusääntöjä </h2>
     $$
     \array{
-    \mathrm{D}k=0    &     \mathrm{D}\left( \frac{f(x)}{g(x)} \right)=\frac{f'(x)g(x)-f(x)g'(x)}{g(x)^2} \\
+    \mathrm{D}k=0    &     \mathrm{D}\left( \dfrac{f(x)}{g(x)} \right)=\dfrac{f'(x)g(x)-f(x)g'(x)}{g(x)^2} \\
     \mathrm{D}k\cdot f(x)=k\mathrm{D}f(x) & \mathrm{D}g(f(x))=g'(f(x))f'(x) \\
-    \mathrm{D}(f(x) \pm g(x)) = \mathrm{D}f(x) \pm \mathrm{D}g(x) & (f^{-1})'(y_0)=1 \over {f'(x_0)}, \text{missä} y_0=f(x_0) \\
+    \mathrm{D}(f(x) \pm g(x)) = \mathrm{D}f(x) \pm \mathrm{D}g(x) & (f^{-1})'(y_0)={1 \over f'(x_0)}, \text{missä} y_0=f(x_0) \\
     \mathrm{D}(f(x)\cdot g(x))=f'(x)g(x)+f(x)g'(x) & \\
     }
     $$
@@ -74,11 +68,11 @@
     <h2>Derivoimiskaavoja </h2>
     $$
     \array{
-    \mathrm{D}x^n=nx^{n-1} & \mathrm{D}e^x=e^x & \mathrm{D} \arccos x = -1 \over \sqrt{1-x^2} \\
-    \mathrm{D}f^n=nf^{n-1}\mathrm{D}f & \mathrm{D}a^x = a^x \ln a (a>0) & \mathrm{D}\arctan x = 1 \over {1+x^2} \\
-    \mathrm{D}\sin x = \cos x & \mathrm{D} \ln |x|=1\over x \\
-    \mathrm{D}\cos x = \sin x & \mathrm{D} \log_a |x| =1\over {x \ln a} (a>0, a \neq 1) \\
-    \mathrm{D}\tan x = 1 \over {\cos^2 x} = 1+ \tan^2 x & \mathrm{D}\arcsin x = 1 \over \sqrt{1-x^2} \\
+    \mathrm{D}x^n=nx^{n-1} & \mathrm{D}e^x=e^x & \mathrm{D} \arccos x = -{1 \over \sqrt{1-x^2}} \\
+    \mathrm{D}f^n=nf^{n-1}\mathrm{D}f & \mathrm{D}a^x = a^x \ln a (a>0) & \mathrm{D}\arctan x = {1 \over {1+x^2}} \\
+    \mathrm{D}\sin x = \cos x & \mathrm{D} \ln |x|={1\over x} \\
+    \mathrm{D}\cos x = \sin x & \mathrm{D} \log_a |x| ={1\over x \ln a} (a>0, a \neq 1) \\
+    \mathrm{D}\tan x = {1 \over \cos^2 x} = 1+ \tan^2 x & \mathrm{D}\arcsin x = {1 \over \sqrt{1-x^2}} \\
  }
     $$
     </section>
@@ -90,8 +84,7 @@
     $$\int f(x)\mathrm{d}x=F(x)+C, \text{missä } F'(x)=f(x)$$
 
     <h2>Riemann-integraalin määritelmä (määrätty integraali)</h2>
-    $$\int _a ^b f(x)dx=\lim_{\max{\Delta x_k} \to 0} \sum_{k=1}^nf(x_k ^*)\Delta x_k,
-    \text{missä } \Delta x_k=x_k-x_{k-1} \wedge x_k ^* \in [x_k-x_{k-1}] \wedge a < x_i < b \forall i \in \left{1,2,...,n \right} $$
+    $$\int _a ^b f(x)dx=\lim_{\max{\Delta x_k} \to 0} \sum_{k=1}^nf(x_k ^*)\Delta x_k, \\ \text{missä } \Delta x_k=x_k-x_{k-1} \wedge x_k ^* \in [x_k-x_{k-1}] \wedge a < x_i < b \forall i \in \left{1,2,...,n \right} $$
     <h2>Analyysin peruslause</h2>
     $$ \int _a ^b F'(x)\mathrm{d}x=\bigg/ _a ^b F(x)=\left[ F(x) \right] _a ^b = F(b)-F(a) $$
 
