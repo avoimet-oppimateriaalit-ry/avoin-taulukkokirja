@@ -44,12 +44,12 @@ section {
 }
 #left{
 float:left;
-width:50%;
+width:49%;
 overflow:hidden;
 }
 #right{
 float:right;
-width:50%;
+width:49%;
 overflow:hidden;
 } 
 #otsikko {
