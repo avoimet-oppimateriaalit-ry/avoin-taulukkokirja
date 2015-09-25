@@ -1,5 +1,4 @@
-matematiikka/kooste.html
-fysiikka/kooste.html
-kemia/kooste.html
-biologia/biologia.html
-maantiede/kooste.html
+matematiikka.html
+fysiikka.html
+kemia.html
+maantiede.html
