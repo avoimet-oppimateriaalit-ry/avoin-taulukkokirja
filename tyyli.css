@@ -52,7 +52,7 @@ section {
     border-radius:0.5em;
     width:67.7em;
 }
-/*span {
+span {
   padding:0px 5px 0px 5px;
 }
 table{
@@ -60,7 +60,7 @@ table{
   margin-right: auto;
   margin-bottom:3em;
   width: 100%;
-}*/
+}
 
 #left{
 float:left;
@@ -160,4 +160,9 @@ white-space: nowrap;
 -webkit-column-gap: 0px; /* Chrome, Safari, Opera */
 -moz-column-gap: 0px; /* Firefox */
 column-gap: 0px;
+
+}
+.ref{
+  margin-left: 10px;
+  text-decoration:none;
 }
