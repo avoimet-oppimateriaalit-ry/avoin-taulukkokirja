@@ -1,4 +1,5 @@
 matematiikka.html
 fysiikka.html
 kemia.html
+bilsakooste.html
 maantiede.html
