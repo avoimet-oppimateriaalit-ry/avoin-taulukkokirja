@@ -139,7 +139,13 @@ taulukko erilaisista funktioista määrittelyjoukko, derivaatta, kuvaaja, ...)
 ## Kirjallisuuslähteet
 
 
-
-
 - muuta mitä tehty:
    - trigonometristen funktioiden tarkkoja arvoja [DONE SIIVONEN]
+
+# Kuvien generointi 
+
+   1. tehdään kuva GeoGebralla 
+   2. tallennetaan kuva svg- ja ggb-muodossa 
+   3. svg-tiedosto tulee cropata, jotta siihen ei jää valkoisia reunoja (ei ilmeisesti onnistu geogebralla?)
+      - helpointa luultavasti käyttää inkscapea 
+   4. siirrä valmis svg-tiedosto kuvat-kansioon ja ggb-tiedosto kuvatGeogebra-kansioon
