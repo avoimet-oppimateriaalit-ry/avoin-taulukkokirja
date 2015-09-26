@@ -176,3 +176,9 @@ column-gap: 0px;
   margin-left: 10px;
   text-decoration:none;
 }
+.figCenter{
+    margin-left: auto;
+    margin-right: auto;
+    max-width:50%;
+    max-height:50%;
+}
