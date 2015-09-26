@@ -3,7 +3,18 @@ body {
     font-size:14px;
     max-width:70em;
     margin:auto;
+    counter-reset: tagNum;
 }
+h2:before {
+    content: "#" counter(tagNum) " ";
+    counter-increment: tagNum;
+}
+
+h3:before {
+    content: "#" counter(tagNum) " ";
+    counter-increment: tagNum;
+}
+
 h1 {
     margin: 1.5em 0.5em 0.5em 0.5em;
     border-top:0.5em solid black;
