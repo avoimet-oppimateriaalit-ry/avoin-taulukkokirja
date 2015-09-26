@@ -22,7 +22,8 @@
    - ongelmatilanteissa tarkistus, että nämä tagit löytyvät KOOSTEJARJESTYS.txt-tiedostossa olevista tiedostoista
 
 
-## LINKIT ERI TIEDOSTOIHIN
+## LINKIT ERI TIEDOSTOIHIN 
+- https://rawgit.com/avoimet-oppimateriaalit-ry/avoin-taulukkokirja/master/matematiikka/Joukko-oppi.html _Joukko-oppi_
 - https://rawgit.com/avoimet-oppimateriaalit-ry/avoin-taulukkokirja/master/matematiikka/NumeerisiaMenetelmia.html _NumeerisiaMenetelmia_
 - https://rawgit.com/avoimet-oppimateriaalit-ry/avoin-taulukkokirja/master/matematiikka/MerkintojaJaSymboleja.html _MerkintojaJaSymboleja_
 - https://rawgit.com/avoimet-oppimateriaalit-ry/avoin-taulukkokirja/master/matematiikka/Aksioomat.html _Aksioomat_
