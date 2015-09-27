@@ -38,6 +38,11 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
+<!--
+\(
+   \newcommand{\dd}{\operatorname{d\!}{}}
+\)
+-->
 <!---PÄÄDOKUMENTTIIN KOPIOITAVA OSA LOPPUU -->
 <!---PÄÄDOKUMENTTIIN KOPIOITAVA OSA ALKAA -->
 <!DOCTYPE html>
@@ -329,7 +334,7 @@ MathJax.Hub.Config({
         <td class="tg-031e">kertolasku, ristitulo</td>
       </tr>
       <tr>
-        <td class="tg-031e">$$\div, /, \frac{}{}$$</td>
+        <td class="tg-031e">$$/, \frac{""}{""}, :, \div$$ (laskimissa)</td>
         <td class="tg-031e">jakolasku</td>
       </tr>
       <tr>
@@ -1042,14 +1047,61 @@ MathJax.Hub.Config({
     <!---PÄÄDOKUMENTTIIN KOPIOITAVA OSA LOPPUU -->
     <!---PÄÄDOKUMENTTIIN KOPIOITAVA OSA ALKAA -->
 
-    <h2>Funktiot</h2>
+\(
+   \newcommand{\dd}{\operatorname{d\!}{}}
+\)
+
+    <h2>Yleisiä yhden muuttujan reaalifunktioita</h2> <!-- kunnes kompleksilaajennuksille mielekäs merkintätapa -->
+        Seuraavissa $a$, $b$, $c$, $a_0$, $a_1$, $a_2$, ... jne. ovat vakioita ja $x$ muuttuja.
+    $f: M_f \rightarrow A_f$ tarkoittaa funktion $f$ olevan kuvaus laajimmalta reaaliselta määrittelyjoukolta vastaavalle arvojoukolle.
     <section>
-        <h3><!---ALAKOHTA --></h3>
-            <!---SISÄLTÖ -->
-        <h3><!---ALAKOHTA --></h3>
-            <!---SISÄLTÖ -->
+        <h3>Yleinen potenssifunktio</h3>
+    <table>
+  <tr>
+    <td>
+        <ul class="none">
+        <li>$f(x)=x^a$</li>
+        <br>
+            <li>$f: \mathbb{R} \rightarrow \mathbb{R}$, kun $a$ pariton</li>
+            <li>$f: \mathbb{R} \rightarrow [0, \infty[$, kun $a$ parillinen</li>
+            <li>$f: [0, \infty[ \rightarrow [0, \infty[$ muuten</li>
+        <br>
+            <li>Parillinen, kun $a$ parillinen</li>
+            <li>Pariton, kun $a$ pariton</li>
+        </ul>
+    </td>
+    <td>
+        <ul class="none">
+            <li>$f'(x)=ax^{a-1}$</li>
+            <li>$\int f(x)\dd x=\frac{x^{a+1}}{a+1}+C$</li>
+        <br>
+            <li>Malli: $f(x)=ax^b$</li>
+        <br>
+            <li> Jaksollisuus: ei jaksoa</li>
+        </ul>
+    </td>
+    <td>Kuvaaja</td> 
+  </tr>
+</table>
     </section>
 
+    <section>
+        <h3>Yleinen eksponenttifunktio</h3>
+    <table>
+  <tr>
+    <td>
+        <ul class="none">
+        <li>$f(x)=a^x$</li>
+        <br>
+        <li>$f: \mathbb{R} \rightarrow ]0, \infty[$, kun $a > 0$</li>
+ <!--       <li>$f: \mathbb{R}\setminus \{ 0 \} \rightarrow \{ 0\}$, kun $a = 0$</li>
+        <li> negatiivinen kantaluku? </li>-->
+        </ul>
+    </td>
+    <td>Kuvaaja</td> 
+  </tr>
+</table>
+    </section>
     <!---PÄÄDOKUMENTTIIN KOPIOITAVA OSA LOPPUU -->
     <!---PÄÄDOKUMENTTIIN KOPIOITAVA OSA ALKAA -->
 
@@ -1061,7 +1113,7 @@ MathJax.Hub.Config({
 
     <section>
     <h2>Raja-arvon määritelmä</h2>
-    $$\lim_{x \to a}f(x)=L \Leftrightarrow (\forall \epsilon>0)(\exists \delta > 0 )(\forall x)(0<|x-c|<\delta \Rightarrow \left|f(x)-L \right|<\epsilon)$$
+    $$\lim_{x \to a}f(x)=L \Leftrightarrow (\forall \epsilon>0)(\exists \delta > 0 )(\forall x)(0<|x-a|<\delta \Rightarrow \left|f(x)-L \right|<\epsilon)$$
 
     <h2>Funktion jatkuvuus</h2>
     $$\text{Funktio $f$ on jatkuva kohdassa $x=a$} \Leftrightarrow \lim_{x \to a} f(x)=f(a)$$
@@ -1172,11 +1224,11 @@ MathJax.Hub.Config({
     <!---PÄÄDOKUMENTTIIN KOPIOITAVA OSA LOPPUU -->
     <!---PÄÄDOKUMENTTIIN KOPIOITAVA OSA ALKAA -->
 
-    <h2>Numeerisia Menetelmia</h2>
+    <h2>Numeerisia menetelmiä</h2>
     <section>
         <h3>Newtonin menetelmä</h3>
 	$$x_{n+1}=x_{n}-\dfrac{f\left(x_{n}\right) }{f'\left(x_{n}\right) } $$
-        <h3>Sekantti menetelmä</h3>
+        <h3>Sekanttimenetelmä</h3>
 	$$x_{n+1}=x_{n}-f\left( x_{n}\right) \cdot \dfrac {x_{n}-x_{n-1}}{f\left( x_{n}\right)
 	-f\left(x_{n-1}\right) }$$
 	<h3>Taylorin polynomi</h3>

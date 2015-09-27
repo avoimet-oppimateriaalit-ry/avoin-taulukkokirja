@@ -3,19 +3,62 @@
 
     <!---PÄÄDOKUMENTTIIN KOPIOITAVA OSA ALKAA -->
 
-    <h2>Yleisiä funktioita</h2>
+\(
+   \newcommand{\dd}{\operatorname{d\!}{}}
+\)
+
+    <h2>Yleisiä yhden muuttujan reaalifunktioita</h2> <!-- kunnes kompleksilaajennuksille mielekäs merkintätapa -->
+        Seuraavissa $a$, $b$, $c$, $a_0$, $a_1$, $a_2$, ... jne. ovat vakioita ja $x$ muuttuja.
+    $f: M_f \rightarrow A_f$ tarkoittaa funktion $f$ olevan kuvaus laajimmalta reaaliselta määrittelyjoukolta vastaavalle arvojoukolle.
     <section>
-        <h3>Potenssifunktio</h3>
-            <!---SISÄLTÖ -->
+        <h3>Yleinen potenssifunktio</h3>
+    <table>
+  <tr>
+    <td>
+        <ul class="none">
+        <li>$f(x)=x^a$</li>
+        <br>
+            <li>$f: \mathbb{R} \rightarrow \mathbb{R}$, kun $a$ pariton</li>
+            <li>$f: \mathbb{R} \rightarrow [0, \infty[$, kun $a$ parillinen</li>
+            <li>$f: [0, \infty[ \rightarrow [0, \infty[$ muuten</li>
+        <br>
+            <li>Parillinen, kun $a$ parillinen</li>
+            <li>Pariton, kun $a$ pariton</li>
+        </ul>
+    </td>
+    <td>
+        <ul class="none">
+            <li>$f'(x)=ax^{a-1}$</li>
+            <li>$\int f(x)\dd x=\frac{x^{a+1}}{a+1}+C$</li>
+        <br>
+            <li>Malli: $f(x)=ax^b$</li>
+        <br>
+            <li> Jaksollisuus: ei jaksoa</li>
+        </ul>
+    </td>
+    <td>Kuvaaja</td> 
+  </tr>
+</table>
     </section>
 
     <section>
-        <h3>Eksponenttifunktio</h3>
-            <!---SISÄLTÖ -->
+        <h3>Yleinen eksponenttifunktio</h3>
+    <table>
+  <tr>
+    <td>
+        <ul class="none">
+        <li>$f(x)=a^x$</li>
+        <br>
+        <li>$f: \mathbb{R} \rightarrow ]0, \infty[$, kun $a > 0$</li>
+ <!--       <li>$f: \mathbb{R}\setminus \{ 0 \} \rightarrow \{ 0\}$, kun $a = 0$</li>
+        <li> negatiivinen kantaluku? </li>-->
+        </ul>
+    </td>
+    <td>Kuvaaja</td> 
+  </tr>
+</table>
     </section>
-
     <!---PÄÄDOKUMENTTIIN KOPIOITAVA OSA LOPPUU -->
-
 
 </body>
 </html>
